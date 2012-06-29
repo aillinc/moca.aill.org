@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="author" content="Kyosuke Takayama" />
+
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
+
+      <title>Moca / iPhone Application</title>
+   </head>
+   <body>
+      <div id="header">
+         <ul class="langlink">
+            <li><a href="index.html.en">English</a></li>
+            <li><a href="index.html.ja">Japanese</a></li>
+         </ul>
+         <h1>Moca</h1>
+      </div>
+
+      <div id="body">
+         <img class="icon" src="./images/Icon.png" alt="" width="114px" height="114px" align="right" />
+         <p>月表示に特化した、便利で美しいカレンダーアプリです。</p>
+
+         <div>
+         <p style="float: left;"><a href="http://itunes.apple.com/jp/app/itangocho/id533031474?mt=8"><img src="./common/images/avail_on_app_store.png" border="0" /></a></p>
+         </div>
+
+         <h3> 縦方向への無限スクロール</h3>
+         <p><a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="240" class="sshotr" /></a></p>
+         <p>一ヶ月毎のカレンダーが縦につながっていて自由にスクロールできるので、直近の予定をパッとみたい人には圧倒的に便利です。</p>
+         <p>月毎の区切りがないので、月末が近くなっても来月以降の予定が効率的に閲覧できます。</p>
+
+
+         <h3> スケジュールが少ない人におすすめ</h3>
+         <p>カレンダーアプリを使う時に、月毎の表示モードをよく使うという方にとって最も使いやすく設計されています。</p>
+         <p>たとえば、一週間のスケジュールがびっちり詰まってるという方には向かないかもしれません。</p>
+
+
+         <h3>iOSカレンダーとの連携</h3>
+         <p>カレンダーのデータはiOSへ設定された内容を読み込みます。</p>
+         <p>GoogleカレンダーやAppleのiCloudカレンダーがそのままご利用できますので、アプリ内で複雑な設定をする必要はありません。</p>
+
+
+         <h3>必要最小限のカスタマイズ</h3>
+         <ul>
+            <li>表示カレンダー</li>
+            <li>週の開始曜日</li>
+            <li>文字サイズやイベントの表示数</li>
+            <li>アイコンバッジ</li>
+         </ul>
+
+         <h3>Screenshots</h3>
+         <p><a href="./images/captures/ja/capture1.png"><img class="sshot" width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
+         <p><a href="./images/captures/ja/capture2.png"><img class="sshot" width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
+         <p><a href="./images/captures/ja/capture3.png"><img class="sshot" width="240px" src="./images/captures/ja/capture3_s.png" /></a></p>
+         <br clear="all" />
+
+      </div>
+
+      <div id="footer">
+         <hr />
+         Copyright (C) aill inc, All rights reserved.
+      </div>
+   </body>
+</html>
