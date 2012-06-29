@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta name="author" content="Kyosuke Takayama" />
+
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
+
+      <title>Moca / iPhone Application</title>
+   </head>
+   <body>
+      <div id="header">
+         <ul class="langlink">
+            <li><a href="index.html.en">English</a></li>
+            <li><a href="index.html.ja">Japanese</a></li>
+         </ul>
+         <h1>Moca</h1>
+      </div>
+
+      <div id="body">
+         <img class="icon" src="./images/Icon.png" alt="" width="114px" height="114px" align="right" />
+         <p>Monthly Calendar</p>
+
+         <div>
+         <p style="float: left;"><a href="http://itunes.apple.com/us/app/itangocho/id533031474?mt=8"><img src="./common/images/avail_on_app_store.png" border="0" /></a></p>
+         </div>
+
+         <h3>--</h3>
+         <p><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" class="sshotr" /></a></p>
+         <p>--</p>
+         <p>--</p>
+
+         <h3>--</h3>
+         <p>--</p>
+         <p>--</p>
+
+
+         <h3>--</h3>
+         <p>--</p>
+         <p>--</p>
+
+
+         <h3>--</h3>
+         <ul>
+            <li>--</li>
+            <li>--</li>
+            <li>--</li>
+            <li>--</li>
+         </ul>
+
+         <h3>Screenshots</h3>
+         <p><a href="./images/captures/en/capture1.png"><img class="sshot" width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
+         <p><a href="./images/captures/en/capture2.png"><img class="sshot" width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
+         <p><a href="./images/captures/en/capture3.png"><img class="sshot" width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
+         <br clear="all" />
+
+      </div>
+
+      <div id="footer">
+         <hr />
+         Copyright (C) aill inc, All rights reserved.
+      </div>
+   </body>
+</html>
