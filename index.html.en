@@ -21,33 +21,32 @@
 
       <div id="body">
          <img class="icon" src="./images/Icon.png" alt="" width="114px" height="114px" align="right" />
-         <p>Monthly Calendar</p>
+         <p>This is a beautiful and convenient calendar app.</p>
 
          <div>
          <p style="float: left;"><a href="http://itunes.apple.com/us/app/itangocho/id533031474?mt=8"><img src="./common/images/avail_on_app_store.png" border="0" /></a></p>
          </div>
 
-         <h3>--</h3>
+         <h3>Infinite longitudinal scrolling</h3>
          <p><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" class="sshotr" /></a></p>
-         <p>--</p>
-         <p>--</p>
+         <p>Each of the month calendar is organized in a longitudinal direction and is easy to scroll up and down.</p>
+         <p>This is absolutely useful for those who want to check the most recent schedule at once.</p>
+         <p>The calendar is not divided by month so even in the end of the current month, you can view the schedule for the upcoming months efficiently.</p>
+         <br clear="all" />
 
-         <h3>--</h3>
-         <p>--</p>
-         <p>--</p>
+         <h3>Recommended for people with less schedule</h3>
+         <p>This app is particularly designed for the people who use the monthly calendar view.</p>
+         <p>It may not be the best if your weekly schedule is full.</p>
 
+         <h3>Integrated with iOS calendar</h3>
+         <p>The calendar loads data included in the built-in iOS calendar app.</p>
+         <p>No need for configuring complicated settings. You can use Google calendar or Apple iCloud calendar directly.</p>
 
-         <h3>--</h3>
-         <p>--</p>
-         <p>--</p>
-
-
-         <h3>--</h3>
+         <h3>Minimum necessary customization</h3>
          <ul>
-            <li>--</li>
-            <li>--</li>
-            <li>--</li>
-            <li>--</li>
+            <li>Calendar view</li>
+            <li>First day of the week</li>
+            <li>Font size and the number of events to display</li>
          </ul>
 
          <h3>Screenshots</h3>
