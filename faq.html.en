@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional
+.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link rel="stylesheet" href="./common/stylesheets/faq_style.css" type="text/css" media="all" />
+      <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+      <title>FAQ [online]</title>
+      <style>
+         p.topAnchor {
+            margin: -0.5em 1em;
+            text-align: right;
+            font-size: small;
+         }
+         dt {
+            font-weight: bold;
+         }
+         dd {
+            margin-left: 1em;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- <p><a href="javascript:location.reload();">reload</a></p> -->
+
+      <h2>Online FAQ</h1>
+
+      <ul style="list-style-type: circle">
+         <li><a href="#birthday">What is birthday clalendar?</a></li>
+         <li><a href="#ipad">iPad version</a></li>
+      </ul>
+
+      <h2 id="birthday">What is birthday clalendar?</h2>
+
+      <p>Birthday calendar shows date-of-birth from the Contact app.</p>
+
+      <p>To add a new birthday, please set the date-of-birth for the appropriate contact.</p>
+
+      <ol>
+         <li>Open Contact app</li>
+         <li>Tap on "Add field"</li>
+         <li>Tap on "Birthday"</li>
+         <li>Set the Birthday</li>
+      </ol>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="ipad">iPad version</h2>
+
+      <p>In development...</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <br /><br />
+   </body>
+</html>
