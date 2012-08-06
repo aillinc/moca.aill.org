@@ -1,0 +1,32 @@
+
+body {
+   font-size: 10.5pt;
+   color: #202020;
+   background-color: #F6F6F6;
+}
+
+h1 {
+   font-size: medium;
+}
+
+h2 {
+   font-size: medium;
+   margin: 1em 0;
+   background-color : #E0E9E0;
+   padding: 0.25em;
+}
+
+pre {
+   padding: 0.5em;
+   background-color: #E0EFE0;
+   border: 1px solid #99CC99;
+}
+
+ol,  ul {
+   padding-left: 1.5em;
+}
+
+a {
+   color: #00C;
+}
+

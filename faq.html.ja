@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional
+.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link rel="stylesheet" href="./common/stylesheets/faq_style.css" type="text/css" media="all" />
+      <meta name="viewport" content="width=device-width; initial-scale=1.0;">
+
+      <title>よくある質問[オンライン]</title>
+      <style>
+         p.topAnchor {
+            margin: -0.5em 1em;
+            text-align: right;
+            font-size: small;
+         }
+         dt {
+            font-weight: bold;
+         }
+         dd {
+            margin-left: 1em;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- <p><a href="javascript:location.reload();">reload</a></p> -->
+
+      <h2>オンラインヘルプ</h1>
+
+      <ul style="list-style-type: circle">
+         <li><a href="#birthday">カレンダーの「誕生日」とは？</a></li>
+         <li><a href="#birthdaybug">誕生日の表示がずれる</a></li>
+         <li><a href="#faint">カレンダーの色が薄い</a></li>
+         <!-- <li><a href="#jump">特定の年月にジャンプしたい</a></li> -->
+         <li><a href="#ipad">iPad版が欲しい</a></li>
+      </ul>
+
+      <h2 id="birthday">カレンダーの「誕生日」とは？</h2>
+
+      <p>カレンダーの「誕生日」は標準アプリである「連絡先」アプリに登録されている誕生日の情報を読み込んでカレンダー上に表示します。</p>
+
+      <p>誕生日を新しく登録する場合は「連絡先」のアプリで誕生日を登録したい人を選択し、編集ボタンをタップし一番下にある「フィールドを追加」を選択すると「誕生日」という項目が追加できますので、そこから登録します。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+      <h2 id="birthdaybug">誕生日の表示がずれる</h2>
+
+      <p>誕生日のずれに関しては、誕生日データの登録時のタイムゾーンと、iPhoneのタイムゾーンがずれている場合に発生するようです。</p>
+      <p>通常は誕生日データにタイムゾーンは入らないのですが、何らかの影響で入ってしまうこともあるようです。</p>
+
+      <p>取り急ぎの対処方法としては、大変ご面倒なのですが、「連絡帳」アプリで誕生日を一旦削除し、再度登録する方法があります。
+      これでずれは解消されます。</p>
+
+      <p>不具合についての詳細はは以下のページが参考になります。</p>
+
+      <p><a href="http://oshiete.appbank.net/archives/568">カレンダーで、誕生日が全て一日前に表示される | よくあるiPhoneの質問 | 教えて！AppBank</a></p>
+
+      <p>この問題は、今後のアップデートで改善できればと思います。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="faint">カレンダーの色が薄い</h2>
+
+      <p>最近、Googleカレンダーと同期をしているカレンダーの配色が極端に薄くなり文字が読みづらくなる現象が発生しています。</p>
+      <p>Googleカレンダー上のカレンダーの色を自由にカスタマイズできるようになったことが関係している模様です。</p>
+
+      <p>同期を繰り返すと元の色に戻ったりと動作が不安定で、Googleカレンダーの不具合と考えられます。取り急ぎスケジュールを快適に表示する方法としては、カレンダーの配色を濃い目に設定する必要があります。</p>
+
+      <p>Googleカレンダーのウェブサイトを開いて左のカレンダーリストの▼をクリックして「色を編集」をクリックすると編集できます。</p>
+      <p>なお、カレンダーの色の変更はアプリを一度killして再起動していただくか、標準のカレンダーアプリを起動していただくとすぐに反映されます。</p>
+      <p>お手数をおかけして申し訳ありません、よろしくお願いします。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <!--
+      <h2 id="jump">特定の年月にジャンプしたい</h2>
+
+      <p>「今日」ボタンをロングプレスすると日付の選択画面が表示されるよ！（予定）</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+      -->
+
+
+      <h2 id="ipad">iPad版が欲しい</h2>
+
+      <p>開発中ですので楽しみにお待ちください！</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <br /><br />
+   </body>
+</html>
