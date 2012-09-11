@@ -27,6 +27,7 @@
       <h2>オンラインヘルプ</h1>
 
       <ul style="list-style-type: circle">
+         <li><a href="#google">Googleカレンダーがデフォルトカレンダー以外表示されない</a></li>
          <li><a href="#nobadge">ホーム画面のアイコンバッジが表示されない</a></li>
          <li><a href="#birthday">カレンダーの「誕生日」とは？</a></li>
          <li><a href="#birthdaybug">誕生日の表示がずれる</a></li>
@@ -34,6 +35,19 @@
          <!-- <li><a href="#jump">特定の年月にジャンプしたい</a></li> -->
          <li><a href="#ipad">iPad版が欲しい</a></li>
       </ul>
+
+      <h2 id="google">Googleカレンダーがデフォルトカレンダー以外表示されない</h2>
+
+      <p>Googleカレンダーがデフォルトカレンダー以外同期されない問題が発生しているようです。公式な発表はないようですが、同期に関するシステムに何か変化があったようです。
+      以下のURLにアクセスして同期するカレンダーにチェックを入れることで、正常に同期できるようになるようです。</p>
+      <ul>
+         <li><a href="https://www.google.com/calendar/syncselect">https://www.google.com/calendar/syncselect</a></li>
+      </ul>
+      <p>もしこのURLにアクセスできない場合は、Googleカレンダーの設定で言語を「English」に変更し、ログアウト・ログインしてからアクセスすると、
+      設定できるようです。恐縮ではございますが、実際に設定を試す場合は自己責任でお願いいたします。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
 
       <h2 id="nobadge">アイコンバッジが表示されない</h2>
 
