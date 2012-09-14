@@ -28,7 +28,7 @@
          </div>
 
          <h3>Infinite longitudinal scrolling</h3>
-         <p><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" class="sshotr" /></a></p>
+         <p class="mainCapture"><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" /></a></p>
          <p>Each of the month calendar is organized in a longitudinal direction and is easy to scroll up and down.</p>
          <p>This is absolutely useful for those who want to check the most recent schedule at once.</p>
          <p>The calendar is not divided by month so even in the end of the current month, you can view the schedule for the upcoming months efficiently.</p>
@@ -50,10 +50,10 @@
          </ul>
 
          <h3>Screenshots</h3>
-         <p><a href="./images/captures/en/capture1.png"><img class="sshot" width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
-         <p><a href="./images/captures/en/capture2.png"><img class="sshot" width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
-         <p><a href="./images/captures/en/capture3.png"><img class="sshot" width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
-         <p><a href="./images/captures/en/capture4.png"><img class="sshot" width="240px" src="./images/captures/en/capture4_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture1.png"><img width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture2.png"><img width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture3.png"><img width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture4.png"><img width="240px" src="./images/captures/en/capture4_s.png" /></a></p>
          <br clear="all" />
 
       </div>
