@@ -7,10 +7,14 @@
 
       <meta http-equiv="Content-Style-Type" content="text/css" />
       <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
+      <link rel="stylesheet" href="common/stylesheets/tinybox.css" type="text/css" media="all" />
+
+      <script type="text/javascript" src="common/javascripts/tinybox.js"></script>
+      <script type="text/javascript" src="common/javascripts/tinybox_lib.js"></script>
 
       <title>Moca / iPhone Application</title>
    </head>
-   <body>
+   <body onload="loadTinyBox('capture,mainCapture')">
       <div id="header">
          <ul class="langlink">
             <li><a href="index.html.en">English</a></li>
