@@ -8,6 +8,10 @@
 
       <title>よくある質問[オンライン]</title>
       <style>
+         body {
+            font-family: TimesNewRomanPSMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3";
+         }
+
          p.topAnchor {
             margin: -0.5em 1em;
             text-align: right;
