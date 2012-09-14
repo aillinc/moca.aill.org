@@ -28,7 +28,7 @@
          </div>
 
          <h3>縦方向への無限スクロール</h3>
-         <p><a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="240" class="sshotr" /></a></p>
+         <p class="mainCapture"><a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="240" /></a></p>
          <p>一ヶ月毎のカレンダーが縦につながっていて自由にスクロールできるので、直近の予定をパッとみたい人には圧倒的に便利です。</p>
          <p>月毎の区切りがないので、月末が近くなっても来月以降の予定が効率的に閲覧できます。</p>
          <br clear="all" />
@@ -56,13 +56,14 @@
 
          <h3>Screenshots</h3>
 
-         <p><a href="./images/captures/ja/capture1.png"><img class="sshot" width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture2.png"><img class="sshot" width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture3.png"><img class="sshot" width="240px" src="./images/captures/ja/capture3_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture4.png"><img class="sshot" width="240px" src="./images/captures/ja/capture4_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture5.png"><img class="sshot" width="240px" src="./images/captures/ja/capture5_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture6.png"><img class="sshot" width="240px" src="./images/captures/ja/capture6_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture7.png"><img class="sshot" width="240px" src="./images/captures/ja/capture7_s.png" /></a></p>
+         <p class="capture">タップして予定を表示<br /><a href="./images/captures/ja/capture1.png"><img width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
+         <p class="capture">文字のサイズや表示領域も自由自在に変更可能<br /><a href="./images/captures/ja/capture2.png"><img width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
+         <p class="capture">わかりやすいカスタマイズ<br /><a href="./images/captures/ja/capture3.png"><img width="240px" src="./images/captures/ja/capture3_s.png" /></a></p>
+         <p class="capture">まとめてコピーできる複製機能<br /><a href="./images/captures/ja/capture4.png"><img width="240px" src="./images/captures/ja/capture4_s.png" /></a></p>
+         <p class="capture">六曜も表示<br /><a href="./images/captures/ja/capture5.png"><img width="240px" src="./images/captures/ja/capture5_s.png" /></a></p>
+         <p class="capture">カレンダーの色はどんな色にでも<br /><a href="./images/captures/ja/capture6.png"><img width="240px" src="./images/captures/ja/capture6_s.png" /></a></p>
+         <br clear="all" />
+         <p class="capture"><a href="./images/captures/ja/capture7.png"><img width="240px" src="./images/captures/ja/capture7_s.png" /></a></p>
          <br clear="all" />
 
       </div>
