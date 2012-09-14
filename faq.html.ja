@@ -31,6 +31,8 @@
       <h2>オンラインヘルプ</h1>
 
       <ul style="list-style-type: circle">
+         <li><a href="#iOS6">iOS6に対応してますか？</a></li>
+         <li><a href="#iPhone5">iPhone5に対応してますか？</a></li>
          <li><a href="#copy">予定のコピーをしたい</a></li>
          <li><a href="#holiday">休日じゃないのに日付の表示が赤くなる</a></li>
          <li><a href="#google">Googleカレンダーがデフォルトカレンダー以外表示されない</a></li>
@@ -40,6 +42,22 @@
          <!-- <li><a href="#jump">特定の年月にジャンプしたい</a></li> -->
          <li><a href="#ipad">iPad版が欲しい</a></li>
       </ul>
+
+      <h2 id="iOS6">iOS6に対応してますか？</h2>
+
+      <p>対応しております。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="iPhone5">iPhone5に対応してますか？</h2>
+
+      <p>現在対応バージョンをアップデート申請中です(2012.09.14)。</p>
+
+      <p>すでにリリースされているバージョンも、上下に帯が入る互換表示モードにて問題無く動作します。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
 
       <h2 id="copy">予定のコピーをしたい</h2>
 
