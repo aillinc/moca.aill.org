@@ -56,16 +56,23 @@
          <h3>Minimum necessary customization</h3>
          <ul>
             <li>Calendar view</li>
+            <li>Holiday calendar</li>
             <li>First day of the week</li>
             <li>Font size and the number of events to display</li>
          </ul>
 
-         <h3>Screenshots</h3>
+         <h3>Screenshots for iPhone</h3>
          <p class="capture"><a href="./images/captures/en/capture1.png"><img width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
          <p class="capture"><a href="./images/captures/en/capture2.png"><img width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
          <p class="capture"><a href="./images/captures/en/capture3.png"><img width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
          <p class="capture"><a href="./images/captures/en/capture4.png"><img width="240px" src="./images/captures/en/capture4_s.png" /></a></p>
          <p class="capture"><a href="./images/captures/en/capture5.png"><img width="240px" src="./images/captures/en/capture5_s.png" /></a></p>
+         <br clear="all" />
+
+         <h3>Screenshots for iPad</h3>
+         <p class="capture"><a href="./images/captures/en/hd/capture1.png"><img width="240px" src="./images/captures/en/hd/capture1_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/hd/capture2.png"><img width="240px" src="./images/captures/en/hd/capture2_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/hd/capture3.png"><img width="240px" src="./images/captures/en/hd/capture3_s.png" /></a></p>
          <br clear="all" />
 
       </div>
