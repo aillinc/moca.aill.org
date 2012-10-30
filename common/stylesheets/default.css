@@ -126,6 +126,32 @@ img.sshotr {
    border-right: solid 2px #777777;
 }
 
+/* capture */
+p.mainCapture {
+   float: right;
+}
+
+p.mainCapture img {
+   padding: 0.3em;
+   box-shadow: 0 0 0px #333, 0 0 12px #333, 5px 5px 5px #999;
+   -webkit-box-shadow: 0 0 0px #333, 0 0 12px #333, 5px 5px 5px #999;
+}
+
+p.capture {
+   float: left;
+}
+
+p.capture span {
+   text-align: center;
+}
+
+p.capture img {
+   margin: 0.5em 0.5em;
+   padding: 0.3em;
+   box-shadow: 0 0 0px #333, 0 0 12px #333, 5px 5px 5px #999;
+   -webkit-box-shadow: 0 0 0px #333, 0 0 12px #333, 5px 5px 5px #999;
+}
+
 /* navigation bar */
 div#navigater {
    padding: 0.5em;

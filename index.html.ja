@@ -7,10 +7,14 @@
 
       <meta http-equiv="Content-Style-Type" content="text/css" />
       <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
+      <link rel="stylesheet" href="common/stylesheets/tinybox.css" type="text/css" media="all" />
+
+      <script type="text/javascript" src="common/javascripts/tinybox.js"></script>
+      <script type="text/javascript" src="common/javascripts/tinybox_lib.js"></script>
 
       <title>Moca / iPhone Application</title>
    </head>
-   <body>
+   <body onload="loadTinyBox('capture,mainCapture')">
       <div id="header">
          <ul class="langlink">
             <li><a href="index.html.en">English</a></li>
@@ -24,11 +28,18 @@
          <p>月表示に特化した、便利で美しいカレンダーアプリです。</p>
 
          <div>
-         <p style="float: left;"><a href="http://itunes.apple.com/jp/app/moca/id533031474?mt=8"><img src="./common/images/avail_on_app_store.png" border="0" /></a></p>
+            <p style="float: left;">
+            for iPhone<br />
+            <a href="http://itunes.apple.com/jp/app/moca/id533031474?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+            </p>
+            <p style="float: left;">
+            for iPad (11月01日より配信開始)<br />
+            <a href="http://itunes.apple.com/jp/app/moca/id570491304?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+            </p>
          </div>
 
          <h3>縦方向への無限スクロール</h3>
-         <p><a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="240" class="sshotr" /></a></p>
+         <p class="mainCapture"><a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="240" /></a></p>
          <p>一ヶ月毎のカレンダーが縦につながっていて自由にスクロールできるので、直近の予定をパッとみたい人には圧倒的に便利です。</p>
          <p>月毎の区切りがないので、月末が近くなっても来月以降の予定が効率的に閲覧できます。</p>
          <br clear="all" />
@@ -46,16 +57,30 @@
 
          <h3>必要最小限のカスタマイズ</h3>
          <ul>
-            <li>表示カレンダー</li>
+            <li>カレンダー</li>
+            <li>祝日設定</li>
             <li>週の開始曜日</li>
             <li>文字サイズやイベントの表示数</li>
-            <li>アイコンバッジ</li>
+            <li>アイコンへのバッジ表示</li>
+            <li>六曜の表示</li>
          </ul>
 
-         <h3>Screenshots</h3>
-         <p><a href="./images/captures/ja/capture1.png"><img class="sshot" width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture2.png"><img class="sshot" width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
-         <p><a href="./images/captures/ja/capture3.png"><img class="sshot" width="240px" src="./images/captures/ja/capture3_s.png" /></a></p>
+         <h3>Screenshots for iPhone</h3>
+
+         <p class="capture">タップして予定を表示<br /><a href="./images/captures/ja/capture1.png"><img width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
+         <p class="capture">文字サイズや表示領域も自由自在<br /><a href="./images/captures/ja/capture2.png"><img width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
+         <p class="capture">わかりやすいカスタマイズ<br /><a href="./images/captures/ja/capture3.png"><img width="240px" src="./images/captures/ja/capture3_s.png" /></a></p>
+         <p class="capture">まとめてコピーできる複製機能<br /><a href="./images/captures/ja/capture4.png"><img width="240px" src="./images/captures/ja/capture4_s.png" /></a></p>
+         <p class="capture">六曜も表示<br /><a href="./images/captures/ja/capture5.png"><img width="240px" src="./images/captures/ja/capture5_s.png" /></a></p>
+         <p class="capture">カレンダーの色はどんな色にでも<br /><a href="./images/captures/ja/capture6.png"><img width="240px" src="./images/captures/ja/capture6_s.png" /></a></p>
+         <br clear="all" />
+         <p class="capture"><a href="./images/captures/ja/capture7.png"><img width="240px" src="./images/captures/ja/capture7_s.png" /></a></p>
+         <br clear="all" />
+
+         <h3>Screenshots for iPad</h3>
+         <p class="capture">手元に予定を一覧<br /><a href="./images/captures/ja/hd/capture1.png"><img width="240px" src="./images/captures/ja/hd/capture1_s.png" /></a></p>
+         <p class="capture">一覧性に優れています<br /><a href="./images/captures/ja/hd/capture2.png"><img width="240px" src="./images/captures/ja/hd/capture2_s.png" /></a></p>
+         <p class="capture">シンプルなカスタマイズ<br /><a href="./images/captures/ja/hd/capture3.png"><img width="240px" src="./images/captures/ja/hd/capture3_s.png" /></a></p>
          <br clear="all" />
 
       </div>

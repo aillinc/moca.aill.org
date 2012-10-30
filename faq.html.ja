@@ -8,6 +8,10 @@
 
       <title>よくある質問[オンライン]</title>
       <style>
+         body {
+            font-family: TimesNewRomanPSMT, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3";
+         }
+
          p.topAnchor {
             margin: -0.5em 1em;
             text-align: right;
@@ -27,13 +31,64 @@
       <h2>オンラインヘルプ</h1>
 
       <ul style="list-style-type: circle">
+         <li><a href="#iOS6">iOS6に対応してますか？</a></li>
+         <li><a href="#iPhone5">iPhone5に対応してますか？</a></li>
+         <li><a href="#copy">予定のコピーをしたい</a></li>
+         <li><a href="#holiday">休日じゃないのに日付の表示が赤くなる</a></li>
+         <li><a href="#google">Googleカレンダーがデフォルトカレンダー以外表示されない</a></li>
          <li><a href="#nobadge">ホーム画面のアイコンバッジが表示されない</a></li>
          <li><a href="#birthday">カレンダーの「誕生日」とは？</a></li>
          <li><a href="#birthdaybug">誕生日の表示がずれる</a></li>
-         <li><a href="#faint">カレンダーの色が薄い</a></li>
          <!-- <li><a href="#jump">特定の年月にジャンプしたい</a></li> -->
          <li><a href="#ipad">iPad版が欲しい</a></li>
       </ul>
+
+      <h2 id="iOS6">iOS6に対応してますか？</h2>
+
+      <p>対応しております。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="iPhone5">iPhone5に対応してますか？</h2>
+
+      <p>対応しております。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="copy">予定のコピーをしたい</h2>
+
+      <p>任意の予定をまとめてコピーすることができます。</p>
+
+      <p>予定を選択して予定の詳細画面を表示し、左下にある「複製」というボタンをタップすると「複製モード」に入ります。</p>
+
+      <p>コピー先の日付をタップしていき最後に完了ボタンをタップすると、選択したすべての日に予定がコピーできます。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="holiday">休日じゃないのに日付の表示が赤くなる</h2>
+
+      <p>休日・祝日とは無関係な日の日付が赤くなっている場合、設定の「祝日カレンダー」にカスタムカレンダーが指定されています。</p>
+
+      <p>設定画面の「祝日カレンダー」を開き、カスタムカレンダーの項目をご確認ください。ここに指定されているカレンダーに予定が登録されていると、その日は休日とみなされ、日付欄が赤く表示されます。不要でしたら「使用しない」を選択します。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+
+      <h2 id="google">Googleカレンダーがデフォルトカレンダー以外表示されない</h2>
+
+      <p>Googleカレンダーがデフォルトカレンダー以外同期されない問題が発生しているようです。公式な発表はないようですが、同期に関するシステムに何か変化があったようです。
+      以下のURLにアクセスして同期するカレンダーにチェックを入れることで、正常に同期できるようになるようです。</p>
+      <ul>
+         <li><a href="https://www.google.com/calendar/syncselect">https://www.google.com/calendar/syncselect</a></li>
+      </ul>
+      <p>もしこのURLにアクセスできない場合は、Googleカレンダーの設定で言語を「English」に変更し、ログアウト・ログインしてからアクセスすると、
+      設定できるようです。恐縮ではございますが、実際に設定を試す場合は自己責任でお願いいたします。</p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
 
       <h2 id="nobadge">アイコンバッジが表示されない</h2>
 
@@ -73,20 +128,6 @@
       <p class="topAnchor"><a href="#top">▲TOP</a></p>
 
 
-      <h2 id="faint">カレンダーの色が薄い</h2>
-
-      <p>最近、Googleカレンダーと同期をしているカレンダーの配色が極端に薄くなり文字が読みづらくなる現象が発生しています。</p>
-      <p>Googleカレンダー上のカレンダーの色を自由にカスタマイズできるようになったことが関係している模様です。</p>
-
-      <p>同期を繰り返すと元の色に戻ったりと動作が不安定で、Googleカレンダーの不具合と考えられます。取り急ぎスケジュールを快適に表示する方法としては、カレンダーの配色を濃い目に設定する必要があります。</p>
-
-      <p>Googleカレンダーのウェブサイトを開いて左のカレンダーリストの▼をクリックして「色を編集」をクリックすると編集できます。</p>
-      <p>なお、カレンダーの色の変更はアプリを一度killして再起動していただくか、標準のカレンダーアプリを起動していただくとすぐに反映されます。</p>
-      <p>お手数をおかけして申し訳ありません、よろしくお願いします。</p>
-
-      <p class="topAnchor"><a href="#top">▲TOP</a></p>
-
-
       <!--
       <h2 id="jump">特定の年月にジャンプしたい</h2>
 
@@ -98,7 +139,7 @@
 
       <h2 id="ipad">iPad版が欲しい</h2>
 
-      <p>開発中ですので楽しみにお待ちください！</p>
+      <p>11月1日にリリース予定です。もうしばらくお待ちください！</p>
 
       <p class="topAnchor"><a href="#top">▲TOP</a></p>
 

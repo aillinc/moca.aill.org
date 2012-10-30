@@ -7,10 +7,14 @@
 
       <meta http-equiv="Content-Style-Type" content="text/css" />
       <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
+      <link rel="stylesheet" href="common/stylesheets/tinybox.css" type="text/css" media="all" />
+
+      <script type="text/javascript" src="common/javascripts/tinybox.js"></script>
+      <script type="text/javascript" src="common/javascripts/tinybox_lib.js"></script>
 
       <title>Moca / iPhone Application</title>
    </head>
-   <body>
+   <body onload="loadTinyBox('capture,mainCapture')">
       <div id="header">
          <ul class="langlink">
             <li><a href="index.html.en">English</a></li>
@@ -24,11 +28,18 @@
          <p>This is a beautiful and convenient calendar app.</p>
 
          <div>
-         <p style="float: left;"><a href="http://itunes.apple.com/us/app/moca/id533031474?mt=8"><img src="./common/images/avail_on_app_store.png" border="0" /></a></p>
+            <p style="float: left;">
+            for iPhone<br />
+            <a href="http://itunes.apple.com/us/app/moca/id533031474?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+            </p>
+            <p style="float: left;">
+            for iPad (release on 11.01)<br />
+            <a href="http://itunes.apple.com/us/app/moca/id570491304?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+            </p>
          </div>
 
          <h3>Infinite longitudinal scrolling</h3>
-         <p><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" class="sshotr" /></a></p>
+         <p class="mainCapture"><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" /></a></p>
          <p>Each of the month calendar is organized in a longitudinal direction and is easy to scroll up and down.</p>
          <p>This is absolutely useful for those who want to check the most recent schedule at once.</p>
          <p>The calendar is not divided by month so even in the end of the current month, you can view the schedule for the upcoming months efficiently.</p>
@@ -50,9 +61,11 @@
          </ul>
 
          <h3>Screenshots</h3>
-         <p><a href="./images/captures/en/capture1.png"><img class="sshot" width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
-         <p><a href="./images/captures/en/capture2.png"><img class="sshot" width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
-         <p><a href="./images/captures/en/capture3.png"><img class="sshot" width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture1.png"><img width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture2.png"><img width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture3.png"><img width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture4.png"><img width="240px" src="./images/captures/en/capture4_s.png" /></a></p>
+         <p class="capture"><a href="./images/captures/en/capture5.png"><img width="240px" src="./images/captures/en/capture5_s.png" /></a></p>
          <br clear="all" />
 
       </div>
