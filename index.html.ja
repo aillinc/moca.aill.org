@@ -28,7 +28,14 @@
          <p>月表示に特化した、便利で美しいカレンダーアプリです。</p>
 
          <div>
-         <p style="float: left;"><a href="http://itunes.apple.com/jp/app/moca/id533031474?mt=8"><img src="./common/images/avail_on_app_store.png" border="0" /></a></p>
+            <p style="float: left;">
+            for iPhone<br />
+            <a href="http://itunes.apple.com/jp/app/moca/id533031474?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+            </p>
+            <p style="float: left;">
+            for iPad (11月01日より配信開始)<br />
+            <a href="http://itunes.apple.com/jp/app/moca/id570491304?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+            </p>
          </div>
 
          <h3>縦方向への無限スクロール</h3>
