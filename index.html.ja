@@ -65,7 +65,7 @@
             <li>六曜の表示</li>
          </ul>
 
-         <h3>Screenshots</h3>
+         <h3>Screenshots for iPhone</h3>
 
          <p class="capture">タップして予定を表示<br /><a href="./images/captures/ja/capture1.png"><img width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
          <p class="capture">文字サイズや表示領域も自由自在<br /><a href="./images/captures/ja/capture2.png"><img width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
@@ -75,6 +75,12 @@
          <p class="capture">カレンダーの色はどんな色にでも<br /><a href="./images/captures/ja/capture6.png"><img width="240px" src="./images/captures/ja/capture6_s.png" /></a></p>
          <br clear="all" />
          <p class="capture"><a href="./images/captures/ja/capture7.png"><img width="240px" src="./images/captures/ja/capture7_s.png" /></a></p>
+         <br clear="all" />
+
+         <h3>Screenshots for iPad</h3>
+         <p class="capture">手元に予定を一覧<br /><a href="./images/captures/ja/hd/capture1.png"><img width="240px" src="./images/captures/ja/hd/capture1_s.png" /></a></p>
+         <p class="capture">一覧性に優れています<br /><a href="./images/captures/ja/hd/capture2.png"><img width="240px" src="./images/captures/ja/hd/capture2_s.png" /></a></p>
+         <p class="capture">シンプルなカスタマイズ<br /><a href="./images/captures/ja/hd/capture3.png"><img width="240px" src="./images/captures/ja/hd/capture3_s.png" /></a></p>
          <br clear="all" />
 
       </div>
