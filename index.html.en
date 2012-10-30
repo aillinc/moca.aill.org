@@ -56,6 +56,7 @@
          <h3>Minimum necessary customization</h3>
          <ul>
             <li>Calendar view</li>
+            <li>Holiday calendar</li>
             <li>First day of the week</li>
             <li>Font size and the number of events to display</li>
          </ul>
