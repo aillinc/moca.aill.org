@@ -38,6 +38,11 @@
             </p>
          </div>
 
+         <div>
+            <br clear="all" />
+            <p><img src="./common/images/f_logo.png" width="20" border="0" /> <a href="https://www.facebook.com/pages/Monthly-Calendar-Moca/275968909191549">Facebook Page</a></p>
+         </div>
+
          <h3>Infinite longitudinal scrolling</h3>
          <p class="mainCapture"><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" /></a></p>
          <p>Each of the month calendar is organized in a longitudinal direction and is easy to scroll up and down.</p>
@@ -61,6 +66,12 @@
             <li>Font size and the number of events to display</li>
          </ul>
 
+         <h3>Facebook Pages</h3>
+
+         <div align="center">
+            <div class="fb-like-box" data-href="http://www.facebook.com/pages/Monthly-Calendar-Moca/275968909191549" data-width="500" data-show-faces="true" data-stream="false" data-header="true"></div>
+         </div>
+
          <h3>Screenshots for iPhone</h3>
          <p class="capture"><a href="./images/captures/en/capture1.png"><img width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
          <p class="capture"><a href="./images/captures/en/capture2.png"><img width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
@@ -81,5 +92,15 @@
          <hr />
          Copyright (C) aill inc, All rights reserved.
       </div>
+
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=180057952055805";
+         fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
    </body>
 </html>
