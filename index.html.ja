@@ -12,7 +12,7 @@
       <script type="text/javascript" src="common/javascripts/tinybox.js"></script>
       <script type="text/javascript" src="common/javascripts/tinybox_lib.js"></script>
 
-      <title>Moca / iPhone Application</title>
+      <title>月特化カレンダー Moca / iPhone Application</title>
    </head>
    <body onload="loadTinyBox('capture,mainCapture')">
       <div id="header">
@@ -20,7 +20,7 @@
             <li><a href="index.html.en">English</a></li>
             <li><a href="index.html.ja">Japanese</a></li>
          </ul>
-         <h1>Moca</h1>
+         <h1>月特化カレンダー Moca</h1>
       </div>
 
       <div id="body">
