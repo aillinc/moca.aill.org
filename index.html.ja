@@ -1,107 +1,241 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>月特化カレンダー Moca / iPhone Application</title>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link href="css/tinybox.css" rel="stylesheet" type="text/css"/>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="author" content="Kyosuke Takayama" />
+<script type="text/javascript" src="javascripts/tinybox.js"></script>
+<script type="text/javascript" src="javascripts/tinybox_lib.js"></script>
 
-      <meta http-equiv="Content-Style-Type" content="text/css" />
-      <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
-      <link rel="stylesheet" href="common/stylesheets/tinybox.css" type="text/css" media="all" />
-
-      <script type="text/javascript" src="common/javascripts/tinybox.js"></script>
-      <script type="text/javascript" src="common/javascripts/tinybox_lib.js"></script>
-
-      <title>月特化カレンダー Moca / iPhone Application</title>
-   </head>
-   <body onload="loadTinyBox('capture,mainCapture')">
-      <div id="header">
-         <ul class="langlink">
-            <li><a href="index.html.en">English</a></li>
-            <li><a href="index.html.ja">Japanese</a></li>
-         </ul>
-         <h1>月特化カレンダー Moca</h1>
-      </div>
-
-      <div id="body">
-         <img class="icon" src="./images/Icon.png" alt="" width="114px" height="114px" align="right" />
-         <p>月表示に特化した、便利で美しいカレンダーアプリです。</p>
-
-         <div>
-            <p style="float: left;">
-            for iPhone<br />
-            <a href="http://itunes.apple.com/jp/app/moca/id533031474?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
-            </p>
-            <p style="float: left;">
-            for iPad<br />
-            <a href="http://itunes.apple.com/jp/app/moca/id570491304?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
-            </p>
-         </div>
-
-         <div>
-            <br clear="all" />
-            <p><img src="./common/images/f_logo.png" width="20" border="0" /> <a href="https://www.facebook.com/MocaJP">Facebook公式ページ</a></p>
-         </div>
-
-         <h3>縦方向への無限スクロール</h3>
-         <p class="mainCapture"><a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="240" /></a></p>
-         <p>一ヶ月毎のカレンダーが縦につながっていて自由にスクロールできるので、直近の予定をパッとみたい人には圧倒的に便利です。</p>
-         <p>月毎の区切りがないので、月末が近くなっても来月以降の予定が効率的に閲覧できます。</p>
-         <br clear="all" />
+</head>
 
 
-         <h3>スケジュールが少ない人におすすめ</h3>
-         <p>カレンダーアプリを使う時に、月毎の表示モードをよく使うという方にとって最も使いやすく設計されています。</p>
-         <p>たとえば、一週間のスケジュールがびっちり詰まってるという方には向かないかもしれません。</p>
+<body onload="loadTinyBox('scs')">
+<div id="header">
+
+<ul class="language">
+    <li><a href="index.html.en">English</a></li>
+    <li><a href="index.html.ja">Japanese</a></li>
+</ul><!--language END-->
+<h1><img src="images/header_image.png" alt="月特化カレンダーMoca：月表示に特化した、便利で美しいカレンダーアプリです" width="960" height="589" /></h1>
+
+</div><!--header END-->
+
+<div class="download clearfix">
+<p>
+for iPhone<br />
+<a href="http://itunes.apple.com/jp/app/moca/id533031474?mt=8"><img src="images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+</p>
+<p>
+for iPad<br />
+<a href="http://itunes.apple.com/jp/app/moca/id570491304?mt=8"><img src="images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+</p>
+</div><!--download END-->
+
+<div id="contents">
 
 
-         <h3>iOSカレンダーとの連携</h3>
-         <p>カレンダーのデータはiOSへ設定された内容を読み込みます。</p>
-         <p>GoogleカレンダーやAppleのiCloudカレンダーがそのままご利用できますので、アプリ内で複雑な設定をする必要はありません。</p>
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/top_text.png" alt="これまでのどのカレンダーアプリよりも高速に動作します。" width="826" height="58" /></h2>
+
+<h3 class="checkbox">縦方向への無限スクロール</h3>
+<p>
+一ヶ月毎のカレンダーが縦につながっていて自由にスクロールできるので、直近の予定をパッとみたい人には圧倒的に便利です。月毎の区切りがないので、月末が近くなっても来月以降の予定が効率的に閲覧できます。<br />
+<img src="images/graph_1.jpg" alt="縦方向への 無限スクロールで みたいところを “パッ”と表示！" width="826" height="765" />
+</p>
+
+<h3 class="checkbox">スケジュールが少ない人におすすめ</h3>
+<p>
+カレンダーアプリを使う時に、月毎の表示モードをよく使うという方にとって最も使いやすく設計されています。
+<br />たとえば、一週間のスケジュールがびっちり詰まってるという方には向かないかもしれません。
+</p>
+
+<h3 class="checkbox">iOSカレンダーとの連携</h3>
+<p>カレンダーのデータはiOSへ設定された内容を読み込みます。<br />
+GoogleカレンダーやAppleのiCloudカレンダーがそのままご利用できますので、アプリ内で複雑な設定をする必要はありません。</p>
+
+<h3 class="checkbox">必要最小限のカスタマイズ</h3>
+<ul class="customize">
+    <li>カレンダー</li>
+    <li>祝日設定</li>
+    <li>週の開始曜日</li>
+    <li>文字サイズやイベントの表示数</li>
+    <li>アイコンへのバッジ表示</li>
+    <li>六曜の表示</li>
+</ul>
+
+</div><!--section END-->
+<!--===セクション終わり===-->
+
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_fb.png" alt="Facebook Pages" width="826" height="58" /></h2>
+<div align="center">
+<div class="fb-like-box" data-href="http://www.facebook.com/MocaJP" data-width="700" data-show-faces="true" data-stream="false" data-header="true"></div>
+</div>
+
+</div><!--section END-->
+<!--===セクション終わり===-->
+
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_scs_iphone.png" alt="Screenshots for iPhone" width="826" height="58" /></h2>
+<div class="scs_box clearfix">
+<div class="scs">
+<p class="scs_text">タップして予定を表示</p>
+<a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">文字サイズや表示領域も自由自在</p>
+<a href="images/captures/ja/capture2.png"><img src="images/captures/ja/capture2_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">わかりやすいカスタマイズ</p>
+<a href="images/captures/ja/capture3.png"><img src="images/captures/ja/capture3_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">まとめてコピーできる複製機能</p>
+<a href="images/captures/ja/capture4.png"><img src="images/captures/ja/capture4_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">六曜も表示</p>
+<a href="images/captures/ja/capture5.png"><img src="images/captures/ja/capture5_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">カレンダーの色はどんな色にでも</p>
+<a href="images/captures/ja/capture6.png"><img src="images/captures/ja/capture6_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<a href="images/captures/ja/capture7.png"><img src="images/captures/ja/capture7_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+
+</div><!--clearfix END-->
+</div><!--section END-->
+<!--===セクション終わり===-->
+
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_scs_ipad.png" alt="Screenshots for iPad" width="826" height="58" /></h2>
+<div class="scs_box clearfix">
+<div class="scs">
+<p class="scs_text">手元に予定を一覧</p>
+<a href="./images/captures/ja/hd/capture1.png"><img width="320px" src="images/captures/ja/hd/capture1_s.png" /></a><a href="images/captures/ja/capture1.png"></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">一覧性に優れています</p>
+<a href="./images/captures/ja/hd/capture2.png"><img width="320px" src="images/captures/ja/hd/capture2_s.png" /></a><a href="images/captures/ja/capture2.png"></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">シンプルなカスタマイズ</p>
+<a href="./images/captures/ja/hd/capture3.png"><img width="320px" src="images/captures/ja/hd/capture3_s.png" /></a><a href="images/captures/ja/capture3.png"></a>
+</div><!--scs END-->
+
+</div><!--clearfix END-->
+</div><!--section END-->
+<!--===セクション終わり===-->
 
 
-         <h3>必要最小限のカスタマイズ</h3>
-         <ul>
-            <li>カレンダー</li>
-            <li>祝日設定</li>
-            <li>週の開始曜日</li>
-            <li>文字サイズやイベントの表示数</li>
-            <li>アイコンへのバッジ表示</li>
-            <li>六曜の表示</li>
-         </ul>
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_reviews.png" alt="Reviews" width="826" height="58" /></h2>
 
-         <h3>Facebook Pages</h3>
+<div class="review clearfix">
 
-         <div align="center">
-            <div class="fb-like-box" data-href="http://www.facebook.com/MocaJP" data-width="500" data-show-faces="true" data-stream="false" data-header="true"></div>
-         </div>
+<p>多くのメディアでMocaを取り上げていただきました！その一部をご紹介します。</p>
+<img src="images/review_iphone.jpg" alt="iPhone版" width="177" height="50" /><br />
 
-         <h3>Screenshots for iPhone</h3>
+<div class="review_box"> <a href="http://www.appbank.net/2012/07/12/iphone-application/441159.php" target="_blank"><img src="images/review_01.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+AppBank<br />
+<span class="text_green">この無料カレンダー、超オススメです。月表示がすごいです！無料。</span></p>
+<p class="review_text">「いやー、ひさびさにすごいアプリがきました。私はあのWeekcalから乗り換えましたよ。」</p>
+</div><!--review_box END-->
 
-         <p class="capture">タップして予定を表示<br /><a href="./images/captures/ja/capture1.png"><img width="240px" src="./images/captures/ja/capture1_s.png" /></a></p>
-         <p class="capture">文字サイズや表示領域も自由自在<br /><a href="./images/captures/ja/capture2.png"><img width="240px" src="./images/captures/ja/capture2_s.png" /></a></p>
-         <p class="capture">わかりやすいカスタマイズ<br /><a href="./images/captures/ja/capture3.png"><img width="240px" src="./images/captures/ja/capture3_s.png" /></a></p>
-         <p class="capture">まとめてコピーできる複製機能<br /><a href="./images/captures/ja/capture4.png"><img width="240px" src="./images/captures/ja/capture4_s.png" /></a></p>
-         <p class="capture">六曜も表示<br /><a href="./images/captures/ja/capture5.png"><img width="240px" src="./images/captures/ja/capture5_s.png" /></a></p>
-         <p class="capture">カレンダーの色はどんな色にでも<br /><a href="./images/captures/ja/capture6.png"><img width="240px" src="./images/captures/ja/capture6_s.png" /></a></p>
-         <br clear="all" />
-         <p class="capture"><a href="./images/captures/ja/capture7.png"><img width="240px" src="./images/captures/ja/capture7_s.png" /></a></p>
-         <br clear="all" />
+<div class="review_box"> <a href="http://www.iphone-girl.jp/application-review/202659.html" target="_blank"><img src="images/review_02.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+iPhone女史<br />
+<span class="text_green">リリースから6日間で10万ダウンロード突破したカレンダーアプリ。</span></p>
+<p class="review_text">「月毎の区切りがないので、月末が近くなっても来月以降の予定が効率的に閲覧できますよ！」</p>
+</div><!--review_box END-->
 
-         <h3>Screenshots for iPad</h3>
-         <p class="capture">手元に予定を一覧<br /><a href="./images/captures/ja/hd/capture1.png"><img width="240px" src="./images/captures/ja/hd/capture1_s.png" /></a></p>
-         <p class="capture">一覧性に優れています<br /><a href="./images/captures/ja/hd/capture2.png"><img width="240px" src="./images/captures/ja/hd/capture2_s.png" /></a></p>
-         <p class="capture">シンプルなカスタマイズ<br /><a href="./images/captures/ja/hd/capture3.png"><img width="240px" src="./images/captures/ja/hd/capture3_s.png" /></a></p>
-         <br clear="all" />
+<div class="review_box"> <a href="http://www.life-with-i.com/?p=38343" target="_blank"><img src="images/review_03.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+life with i<br />
+<span class="text_green">iOS 標準のカレンダーと連動する、月表示に特化したシンプルなカレンダーアプリケーション</span></p>
+<p class="review_text">「ホーム画面のアイコンに「今日の日付」もしくは「当日の予定数」をバッジで表示することもできます。」</p>
+</div><!--review_box END-->
 
-      </div>
+<div class="review_box"> <a href="http://www.appps.jp/archives/1954441.html" target="_blank"><img src="images/review_04.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+アップス！<br />
+<span class="text_green">月表示に特化した見やすい無料カレンダーアプリ！ アイコンバッジの日付表示も地味に便利です！</span></p>
+<p class="review_text">「カレンダーアプリに迷っているかたはこれに決めちゃっていいかも！」</p>
+</div><!--review_box END-->
 
-      <div id="footer">
-         <hr />
-         Copyright (C) aill inc, All rights reserved.
-      </div>
+<div class="review_box"> <a href="http://www.app-life.jp/2012/07/44283/" target="_blank"><img src="images/review_05.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+AppLiFE<br />
+<span class="text_green">2012年ベスト無料スケジュールアプリの予感！切れ目ない月表示がすごい！無料</span></p>
+<p class="review_text">「有料アプリでもしっくりくるものに出会えていなかったのですが、これに決めました。」</p>
+</div><!--review_box END-->
 
-      <div id="fb-root"></div>
+<div class="review_box"> <a href="http://iphones.cx/news/_moca/" target="_blank"><img src="images/review_06.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+iStation<br />
+<span class="text_green">無料：カレンダーアプリの決定版！内蔵カレンダーの閲覧に適した「月特化カレンダー Moca」</span></p>
+<p class="review_text">「一般的なアプリとくらべて月またぎの予定の確認のしやすさは、非常に高いです。」</p>
+</div><!--review_box END-->
+
+</div><!--review END-->
+
+
+<div class="review clearfix">
+<img src="images/review_ipad.jpg" alt="iPad版" width="177" height="50" /><br />
+
+<div class="review_box"> <a href="http://www.appbank.net/2012/10/31/ipad/498121.php" target="_blank"><img src="images/review_ipad01.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+AppBank<br />
+<span class="text_green">スムーズにスクロールできる、月表示専用カレンダーアプリ。無料</span></p>
+<p class="review_text">「このアプリ全体に共通するのは「動作の軽さ」。カレンダーのスクロールはスムーズで、ササッと翌月・翌々月の予定を確認する時に重宝します。」</p>
+</div><!--review_box END-->
+
+<div class="review_box"> <a href="http://www.life-with-i.com/?p=40937" target="_blank"><img src="images/review_ipad02.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">life with i<br />
+<span class="text_green">iOS 標準のカレンダーと連動する、月表示に特化したシンプルなカレンダーアプリケーション</span></p>
+<p class="review_text">「好評を博した、月表示に特化したシンプルなカレンダー iPhone アプリケーション『月特化カレンダー Moca』の iPad 版」</p>
+</div><!--review_box END-->
+
+<div class="review_box"> <a href="http://osuban.jp/ipad/?p=249" target="_blank"><img src="images/review_ipad03.jpg" alt="Reviews" width="240" /></a>
+<p class="review_title">
+iPadアプリ押忍スメ番付<br />
+<span class="text_green">
+直近の予定をパッとみたい方にオススメのスケジュールアプリ</span></p>
+<p class="review_text">「縦方向にスクロールするだけ！月をまたいでスケジュールを確認出来るのは便利だなと思いました。」</p>
+</div><!--review_box END-->
+
+</div><!--review END-->
+
+
+</div><!--section END-->
+<!--===セクション終わり===-->
+
+</div><!--contents END-->
+
+<div id="footer">
+
+<div class="footer_box">
+<img src="images/aill_logo.png" alt="aill" class="logo"/>
+<p class="copyright">Copyright (C) aill inc, All rights reserved. </p>
+</div><!--footer_box END-->
+
+</div><!--footer END-->
+
+
+<div id="fb-root"></div>
       <script>(function(d, s, id) {
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) return;
@@ -110,7 +244,7 @@
          fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
       </script>
-
+      
       <script type="text/javascript">
          var _gaq = _gaq || [];
          _gaq.push(['_setAccount', 'UA-35991348-1']);
@@ -122,5 +256,6 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
       </script>
-   </body>
+      
+</body>
 </html>
