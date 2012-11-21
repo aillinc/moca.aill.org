@@ -1,99 +1,147 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Moca / iPhone Application</title>
+<link href="css/common.css" rel="stylesheet" type="text/css">
+<link href="css/layout.css" rel="stylesheet" type="text/css">
+<link href="css/tinybox.css" rel="stylesheet" type="text/css"/>
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-   <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="author" content="Kyosuke Takayama" />
+<script type="text/javascript" src="javascripts/tinybox.js"></script>
+<script type="text/javascript" src="javascripts/tinybox_lib.js"></script>
 
-      <meta http-equiv="Content-Style-Type" content="text/css" />
-      <link rel="stylesheet" href="common/stylesheets/default.css" type="text/css" media="all" title="Default CSS" />
-      <link rel="stylesheet" href="common/stylesheets/tinybox.css" type="text/css" media="all" />
+</head>
 
-      <script type="text/javascript" src="common/javascripts/tinybox.js"></script>
-      <script type="text/javascript" src="common/javascripts/tinybox_lib.js"></script>
 
-      <title>Moca / iPhone Application</title>
-   </head>
-   <body onload="loadTinyBox('capture,mainCapture')">
-      <div id="header">
-         <ul class="langlink">
-            <li><a href="index.html.en">English</a></li>
-            <li><a href="index.html.ja">Japanese</a></li>
-         </ul>
-         <h1>Moca</h1>
-      </div>
+<body onload="loadTinyBox('scs')">
+<div id="header">
 
-      <div id="body">
-         <img class="icon" src="./images/Icon.png" alt="" width="114px" height="114px" align="right" />
-         <p>This is a beautiful and convenient calendar app.</p>
+<ul class="language">
+    <li><a href="index.html.en">English</a></li>
+    <li><a href="index.html.ja">Japanese</a></li>
+</ul><!--language END-->
+<h1><img src="images/header_image_en.png" alt="Calendar which specializes in Month view. Moca / iPhone Application" width="960" height="589" /></h1>
 
-         <div>
-            <p style="float: left;">
-            for iPhone<br />
-            <a href="http://itunes.apple.com/us/app/moca/id533031474?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
-            </p>
-            <p style="float: left;">
-            for iPad<br />
-            <a href="http://itunes.apple.com/us/app/moca/id570491304?mt=8"><img src="./common/images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
-            </p>
-         </div>
+</div><!--header END-->
 
-         <div>
-            <br clear="all" />
-            <p><img src="./common/images/f_logo.png" width="20" border="0" /> <a href="https://www.facebook.com/pages/Monthly-Calendar-Moca/275968909191549">Facebook Page</a></p>
-         </div>
+<div class="download clearfix">
+<p>
+for iPhone<br />
+<a href="http://itunes.apple.com/us/app/moca/id533031474?mt=8"><img src="images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+</p>
+<p>
+for iPad<br />
+<a href="http://itunes.apple.com/us/app/moca/id570491304?mt=8"><img src="images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" /></a>
+</p>
+</div><!--download END-->
 
-         <h3>Infinite longitudinal scrolling</h3>
-         <p class="mainCapture"><a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="240" /></a></p>
-         <p>Each of the month calendar is organized in a longitudinal direction and is easy to scroll up and down.</p>
+<div id="contents">
+
+
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/top_text_en.png" alt="The fastest calender Apps ever." width="826" height="58" /></h2>
+
+<h3 class="checkbox">Infinite longitudinal scrolling</h3>
+<p>Each of the month calendar is organized in a longitudinal direction and is easy to scroll up and down.</p>
          <p>This is absolutely useful for those who want to check the most recent schedule at once.</p>
-         <p>The calendar is not divided by month so even in the end of the current month, you can view the schedule for the upcoming months efficiently.</p>
-         <br clear="all" />
+         <p>The calendar is not divided by month so even in the end of the current month, you can view the schedule for the upcoming months efficiently.
+<img src="images/graph_1_en.jpg" alt="It makes quicker view with Infinite longitudinal scrolling." width="826" height="765" />
+</p>
 
-         <h3>Recommended for people with less schedule</h3>
-         <p>This app is particularly designed for the people who use the monthly calendar view.</p>
-         <p>It may not be the best if your weekly schedule is full.</p>
+<h3 class="checkbox">Recommended for people with less schedule</h3>
+<p>This app is particularly designed for the people who use the monthly calendar view.</p>
+<p>It may not be the best if your weekly schedule is full.</p>
 
-         <h3>Integrated with iOS calendar</h3>
-         <p>The calendar loads data included in the built-in iOS calendar app.</p>
-         <p>No need for configuring complicated settings. You can use Google calendar or Apple iCloud calendar directly.</p>
+<h3 class="checkbox">Integrated with iOS calendar</h3>
+<p>The calendar loads data included in the built-in iOS calendar app.</p>
+<p>No need for configuring complicated settings. You can use Google calendar or Apple iCloud calendar directly.</p>
 
-         <h3>Minimum necessary customization</h3>
-         <ul>
-            <li>Calendar view</li>
-            <li>Holiday calendar</li>
-            <li>First day of the week</li>
-            <li>Font size and the number of events to display</li>
-         </ul>
+<h3 class="checkbox">Minimum necessary customization</h3>
+<ul>
+      <li>Calendar view</li>
+      <li>Holiday calendar</li>
+      <li>First day of the week</li>
+      <li>Font size and the number of events to display</li>
+</ul>
 
-         <h3>Facebook Pages</h3>
+</div><!--section END-->
+<!--===セクション終わり===-->
 
-         <div align="center">
-            <div class="fb-like-box" data-href="http://www.facebook.com/pages/Monthly-Calendar-Moca/275968909191549" data-width="500" data-show-faces="true" data-stream="false" data-header="true"></div>
-         </div>
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_fb.png" alt="Facebook Pages" width="826" height="58" /></h2>
+<div align="center">
+<div class="fb-like-box" data-href="http://www.facebook.com/pages/Monthly-Calendar-Moca/275968909191549" data-width="700" data-show-faces="true" data-stream="false" data-header="true"></div>
+</div>
 
-         <h3>Screenshots for iPhone</h3>
-         <p class="capture"><a href="./images/captures/en/capture1.png"><img width="240px" src="./images/captures/en/capture1_s.png" /></a></p>
-         <p class="capture"><a href="./images/captures/en/capture2.png"><img width="240px" src="./images/captures/en/capture2_s.png" /></a></p>
-         <p class="capture"><a href="./images/captures/en/capture3.png"><img width="240px" src="./images/captures/en/capture3_s.png" /></a></p>
-         <p class="capture"><a href="./images/captures/en/capture4.png"><img width="240px" src="./images/captures/en/capture4_s.png" /></a></p>
-         <p class="capture"><a href="./images/captures/en/capture5.png"><img width="240px" src="./images/captures/en/capture5_s.png" /></a></p>
-         <br clear="all" />
+</div><!--section END-->
+<!--===セクション終わり===-->
 
-         <h3>Screenshots for iPad</h3>
-         <p class="capture"><a href="./images/captures/en/hd/capture1.png"><img width="240px" src="./images/captures/en/hd/capture1_s.png" /></a></p>
-         <p class="capture"><a href="./images/captures/en/hd/capture2.png"><img width="240px" src="./images/captures/en/hd/capture2_s.png" /></a></p>
-         <p class="capture"><a href="./images/captures/en/hd/capture3.png"><img width="240px" src="./images/captures/en/hd/capture3_s.png" /></a></p>
-         <br clear="all" />
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_scs_iphone.png" alt="Screenshots for iPhone" width="826" height="58" /></h2>
+<div class="scs_box clearfix">
+<div class="scs">
+<p class="scs_text">Tap to view the schedule.</p>
+<a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text"><span class="text_s">Text size and display area is freely.</span></p>
+<a href="images/captures/en/capture2.png"><img src="images/captures/en/capture2_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">Easy customize</p>
+<a href="images/captures/en/capture3.png"><img src="images/captures/en/capture3_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text"> Replication function</p>
+<a href="images/captures/en/capture4.png"><img src="images/captures/en/capture4_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">You can choose any color.</p>
+<a href="images/captures/en/capture5.png"><img src="images/captures/en/capture5_s.png" width="320" height="460" /></a>
+</div><!--scs END-->
 
-      </div>
+</div><!--clearfix END-->
+</div><!--section END-->
+<!--===セクション終わり===-->
 
-      <div id="footer">
-         <hr />
-         Copyright (C) aill inc, All rights reserved.
-      </div>
+<!--===セクション始まり===-->
+<div class="section">
+<h2><img src="images/title_scs_ipad.png" alt="Screenshots for iPad" width="826" height="58" /></h2>
+<div class="scs_box clearfix">
+<div class="scs">
+<p class="scs_text">Handy List of schedules</p>
+<a href="./images/captures/en/hd/capture1.png"><img width="320px" src="images/captures/en/hd/capture1_s.png" /></a><a href="images/captures/en/capture1.png"></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">Excellent list of schedules</p>
+<a href="./images/captures/en/hd/capture2.png"><img width="320px" src="images/captures/en/hd/capture2_s.png" /></a><a href="images/captures/en/capture2.png"></a>
+</div><!--scs END-->
+<div class="scs">
+<p class="scs_text">Simple customize</p>
+<a href="./images/captures/en/hd/capture3.png"><img width="320px" src="images/captures/en/hd/capture3_s.png" /></a><a href="images/captures/en/capture3.png"></a>
+</div><!--scs END-->
 
-      <div id="fb-root"></div>
+</div><!--clearfix END-->
+</div><!--section END-->
+<!--===セクション終わり===-->
+
+
+</div><!--contents END-->
+
+<div id="footer">
+
+<div class="footer_box">
+<img src="images/aill_logo.png" alt="aill" class="logo"/>
+<p class="copyright">Copyright (C) aill inc, All rights reserved. </p>
+</div><!--footer_box END-->
+
+</div><!--footer END-->
+
+
+<div id="fb-root"></div>
       <script>(function(d, s, id) {
          var js, fjs = d.getElementsByTagName(s)[0];
          if (d.getElementById(id)) return;
@@ -102,7 +150,7 @@
          fjs.parentNode.insertBefore(js, fjs);
          }(document, 'script', 'facebook-jssdk'));
       </script>
-
+      
       <script type="text/javascript">
          var _gaq = _gaq || [];
          _gaq.push(['_setAccount', 'UA-35991348-1']);
@@ -114,5 +162,6 @@
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
       </script>
-   </body>
+      
+</body>
 </html>

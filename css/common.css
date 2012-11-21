@@ -1,0 +1,80 @@
+/*===========================
+　基本設定
+=============================*/
+
+/*ブラウザー固有のスタイルをリセット*/
+body,div,dl,dt,dd,
+ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,form,fieldset,legend,
+input,textarea,p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+img {
+	border:0;
+}
+ul,ol,li {
+	list-style:none;
+}
+/*フォントサイズ*/
+body{
+	font:15px/1.231 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+    *font-size:small;/* IE用 */
+    *font:x-small;/* IE 互換モード用 */
+	color:#4d4d4d;
+	background-color:#fff;
+	line-height:1.6em;
+}
+/*フォントサイズ対応表
+10px:77%     11px:85%     12px:93% 
+13px:100%    14px:108%    15px:116%
+16px:123.1%  17px:131%    18px:138.5%
+19px:146.5%  20px:153.9%  21px:161.6%
+22px:167%    23px:174%    24px:182%
+25px:189%    26px:197%
+*/
+
+/*リンク*/
+a {
+	text-decoration:none;
+	color:#afce0a;
+}
+
+#toTop {
+	display:block;
+	margin-left:530px;
+	text-indent:35px;
+	background-image: url(../images/icon_totop.jpg);
+	background-repeat: no-repeat;
+	width:140px;
+	height:23px;
+	font-size:110%;
+	color:#CC9900;
+	padding:3px;
+}
+
+/*画像を左寄せにする*/
+.img_left {
+	float:left;
+	margin-right:10px;
+}
+
+/*画像を右寄せにする*/
+.img_right {
+	float:right;
+	margin-left:10px;
+}
+
+/*float解除用*/
+.clearfix:after{/*for modern browser*/
+    content:".";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.clearfix {zoom:1;/*for IE 5.5-7*/}
