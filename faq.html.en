@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <link rel="stylesheet" href="./common/stylesheets/faq_style.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="./css/faq_style.css" type="text/css" media="all" />
       <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 
       <title>FAQ [online]</title>
@@ -49,7 +49,7 @@
 
       <h2 id="ipad">iPad version</h2>
 
-      <p>In development...</p>
+      <p><a href="http://itunes.apple.com/us/app/moca/id570491304?mt=8"><img src="images/Available_on_the_App_Store_Badge_US-UK_135x40_0801.svg" border="0" alt="Available on the App Store" /></a></p>
 
       <p class="topAnchor"><a href="#top">▲TOP</a></p>
 
