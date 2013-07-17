@@ -43,6 +43,8 @@
             選択した日付の10時から12時の期間に「会議」というタイトルのイベントが登録されます。</p>
             <p>どういった文章を認識するかどうか、以下に示しますので活用してください。</p>
 
+            <hr />
+
             <div class="row">
                <div class="span4" align="center">
                   <div class="subheader text-left">
