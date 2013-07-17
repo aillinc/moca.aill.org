@@ -21,7 +21,7 @@
                <div class="btn-group pull-right">
                   <a class="btn btn-inverse btn-mini" href="index.html.en">English</a>
                </div>
-               <a class="brand" href="index.html.ja">Moca Mac版ヘルプ</a>
+               <a class="brand" href="/">Moca Mac版</a>
                <ul class="nav">
                   <li class="active"><a href="index.html">ヘルプ</a></li>
                   <li><a href="quick.html">クイック作成画面</a></li>
@@ -32,6 +32,16 @@
 
       <div class="container">
          <div class="document">
+            <div id="header">
+               <h2>Moca Mac版 ヘルプ</h2>
+               <p>月特化カレンダーMocaのMac版のヘルプです。</p>
+
+               <p> <a href="https://itunes.apple.com/jp/app/moca/id672209646"><img src="/images/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0801.svg" border="0" /></a>
+               </p>
+            </div>
+
+            <hr />
+
             <div class="row">
                <div class="span4" align="center">
                   <div class="subheader text-left">
@@ -54,6 +64,17 @@
                   <p>カレンダー上でイベントをドラッグ＆ドロップして操作することが可能です。</p>
                   <p>単にドラッグ＆ドロップをすると<strong>移動</strong>ですが、
                   <em>Optionキー</em>を押しながらドラッグ＆ドロップをすると<strong>コピー</strong>になります。</p>
+
+
+                  <h3 class="point">キーボードショートカット</h3>
+                  <p>メニューに存在する項目以外にも、以下のキーを単独で押すとカレンダーの表示位置を移動できます。</p>
+                  <div class="row">
+                     <div class="span1 offset1">t</div><div class="span4">今日に移動</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">k</div><div class="span4">前週に移動</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">j</div><div class="span4">次週に移動</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">p</div><div class="span4">前月に移動</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">n</div><div class="span4">次月に移動</div><div class="span2">&nbsp;</div>
+                  </div>
 
 
                   <h3 class="point">エージェントモードで使う</h3>

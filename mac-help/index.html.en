@@ -21,7 +21,7 @@
                <div class="btn-group pull-right">
                   <a class="btn btn-inverse btn-mini" href="index.html.ja">Japanese</a>
                </div>
-               <a class="brand" href="index.html.en">HELP: Moca Mac</a>
+               <a class="brand" href="index.html.en">Moca Mac</a>
                <ul class="nav">
                   <li class="active"><a href="index.html">HELP</a></li>
                   <li><a href="quick.html">Quick Add Event</a></li>
@@ -32,6 +32,15 @@
 
       <div class="container">
          <div class="document">
+            <div id="header">
+               <h2>Help for Monthly Calendar Moca</h2>
+
+               <p> <a href="https://itunes.apple.com/us/app/moca/id672209646"><img src="/images/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0801.svg" border="0" /></a>
+               </p>
+            </div>
+
+            <hr />
+
             <div class="row">
                <div class="span4" align="center">
                   <div class="subheader text-left">
@@ -58,6 +67,17 @@
                   <p>単にドラッグ＆ドロップをすると<strong>移動</strong>ですが、
                   <em>Optionキー</em>を押しながらドラッグ＆ドロップをすると<strong>コピー</strong>になります。</p>
                   -->
+
+
+                  <h3 class="point">Keyboard operation</h3>
+                  <!--<p>メニューに存在する項目以外にも、以下のキーを単独で押すとカレンダーの表示位置を移動できます。</p> -->
+                  <div class="row">
+                     <div class="span1 offset1">t</div><div class="span4">Go to today</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">k</div><div class="span4">Go to previous week</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">j</div><div class="span4">Go to next week</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">p</div><div class="span4">Go to previous month</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">n</div><div class="span4">Go to next month</div><div class="span2">&nbsp;</div>
+                  </div>
 
 
                   <h3 class="point">Agent mode</h3>
