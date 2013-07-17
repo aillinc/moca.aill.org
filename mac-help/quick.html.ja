@@ -21,7 +21,7 @@
                <div class="btn-group pull-right">
                   <a class="btn btn-inverse btn-mini" href="quick.html.en">English</a>
                </div>
-               <a class="brand" href="index.html">Moca Mac版ヘルプ</a>
+               <a class="brand" href="/">Moca Mac版</a>
                <ul class="nav">
                   <li><a href="index.html">ヘルプ</a></li>
                   <li class="active"><a href="quick.html">クイック作成画面</a></li>
