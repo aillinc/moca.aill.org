@@ -29,8 +29,10 @@
       <div class="container">
          <div class="document">
             <div class="row">
-               <div class="span4">
-                  <h2 id="use" class="checkbox">便利な使い方</h2>
+               <div class="span4" align="center">
+                  <div class="subheader text-left">
+                     <h2 id="use" class="checkbox">便利な使い方</h2>
+                  </div>
                </div>
 
                <div class="span8">
@@ -67,8 +69,10 @@
             <hr />
 
             <div class="row">
-               <div class="span4">
-                  <h2 id="problem" class="checkbox">問題が発生した場合</h2>
+               <div class="span4" align="center">
+                  <div class="subheader text-left">
+                     <h2 id="problem" class="checkbox">問題が発生した場合</h2>
+                  </div>
                </div>
 
                <div class="span8">

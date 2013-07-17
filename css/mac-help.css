@@ -32,6 +32,10 @@ h2.checkbox {
    margin: 20px 0 0 10px;
 }
 
+div.subheader {
+   max-width: 240px;
+}
+
 h3.point {
    background: url(../images/icon_pink.jpg) no-repeat center left;
    text-indent: 22px;
