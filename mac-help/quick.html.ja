@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+      <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css" media="screen,print" />
+      <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap-responsive.min.css">
+      <link rel="stylesheet" type="text/css" href="/css/mac-help.css">
+
+      <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
+      <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+
+      <title>Moca Mac版ヘルプ - クイック作成画面</title>
+   </head>
+   <body>
+      <div class="navbar">
+         <div class="navbar-inner">
+            <div class="container">
+               <div class="btn-group pull-right">
+                  <a class="btn btn-inverse btn-mini" href="quick.html.en">English</a>
+               </div>
+               <a class="brand" href="index.html">Moca Mac版ヘルプ</a>
+               <ul class="nav">
+                  <li><a href="index.html">ヘルプ</a></li>
+                  <li class="active"><a href="quick.html">クイック作成画面</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <div class="container">
+         <div class="document">
+
+            <h3 class="point">クイック予定作成機能について</h3>
+            <p>メニューから「新規イベント」を選択するか任意の日付の枠内をクリックするとクイック作成画面が開きますので、
+            イベントの内容を入力して<em>Enterキー</em>を押すと、すぐにイベントが登録できます。</p>
+            <p>「新規イベント」を選択した場合は当日がデフォルトに、任意の日付を選択した場合は、その日付がデフォルトになります。</p>
+            <p>クイック作成画面では日付や開始時間などを自動的に認識しますので、
+            たとえば「午前10時から12時まで会議」といった自然な文章を入力すると、
+            選択した日付の10時から12時の期間に「会議」というタイトルのイベントが登録されます。</p>
+            <p>どういった文章を認識するかどうか、以下に示しますので活用してください。</p>
+
+
+            <h3 class="point">対応している書式</h3>
+
+            <h4><i class="icon-tag"></i>基本的なルール</h4>
+            <ul>
+               <li>日付や曜日を指定した場合は、選択した日の次の日付（曜日）となります</li>
+               <li>時刻を指定しない場合は、終日イベントになります</li>
+               <li>開始時刻のみ指定した場合は、終了時刻は開始時刻より1時間後となります</li>
+            </ul>
+
+            <h4><i class="icon-tag"></i>代表的な書式</h4>
+            <ul>
+               <li>10-12 ミーティング</li>
+               <li>2pm ミーティング</li>
+               <li>19時 ミーティング</li>
+               <li>金曜日午後7時 ミーティング</li>
+               <li>6月11日19時〜22時はミーティング</li>
+            </ul>
+
+            <h4><i class="icon-tag"></i>時刻の指定</h4>
+            <ul>
+               <li>10am - 1pm ミーティング</li>
+               <li>4:00 pm - 9:30 ミーティング</li>
+               <li>13時15分から14時半までミーティング</li>
+               <li>午後3時30分から午後5時30分 ミーティング</li>
+               <li>４時から１２時はミーティング</li>
+               <li>十時から十二時までミーティング</li>
+               <li>十九時から二十二時半までミーティング</li>
+               <li>午後四時から九時半までミーティング</li>
+            </ul>
+
+
+            <h4><i class="icon-tag"></i>曜日の指定</h4>
+            <p>◯曜日、◯曜といった書式に対応しています。
+            選択した日が土曜日の場合に「土曜日」と入力すると当日、「次の土曜日」とすると、翌週の土曜日と認識されます。</p>
+            <ul>
+               <li>月曜ミーティング</li>
+               <li>火曜日ミーティング</li>
+               <li>次の土曜日の午後7時にミーティング</li>
+            </ul>
+
+
+            <h4><i class="icon-tag"></i>日付の指定</h4>
+            <ul>
+               <li>6/11 15:30 ミーティング</li>
+               <li>6月11日はミーティング</li>
+            </ul>
+            <p>※年の指定には対応していません。</p>
+
+
+            <h4><i class="icon-tag"></i>相対的な日付の指定</h4>
+            <p>文頭に「今日、明日、明後日、明々後日、昨日、一昨日、一昨々日」と入れることが可能です。</p>
+            <ul>
+               <li>明日の午後７時はミーティング</li>
+               <li>昨日はミーティング</li>
+            </ul>
+
+            <hr />
+
+         </div><!-- document -->
+
+         <footer>
+         <p class="copyright">Copyright (C) aill inc, All rights reserved. </p>
+         </footer>
+      </div><!-- container -->
+   </body>
+</html>
