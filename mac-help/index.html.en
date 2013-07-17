@@ -32,6 +32,15 @@
 
       <div class="container">
          <div class="document">
+            <div id="header">
+               <h2>Help for Monthly Calendar Moca</h2>
+
+               <p> <a href="https://itunes.apple.com/us/app/moca/id672209646"><img src="/images/Available_on_the_Mac_App_Store_Badge_US-UK_165x40_0801.svg" border="0" /></a>
+               </p>
+            </div>
+
+            <hr />
+
             <div class="row">
                <div class="span4" align="center">
                   <div class="subheader text-left">
