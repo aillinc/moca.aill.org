@@ -12,23 +12,25 @@
       <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
       <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
 
-      <title>Moca デスクトップ版ヘルプ</title>
+      <title>Moca Mac版ヘルプ</title>
    </head>
    <body>
-      <div class="container">
-         <div class="header clearfix">
-            <div class="btn-group account pull-right">
-               <a class="btn btn-inverse btn-mini" href="index.html.en">English</a>
+      <div class="navbar">
+         <div class="navbar-inner">
+            <div class="container">
+               <div class="btn-group pull-right">
+                  <a class="btn btn-inverse btn-mini" href="index.html.en">English</a>
+               </div>
+               <a class="brand" href="index.html.ja">Moca Mac版ヘルプ</a>
             </div>
-
-            <h1>Moca デスクトップ版ヘルプ</h1>
          </div>
+      </div>
 
+      <div class="container">
          <div class="document">
-
             <div class="row">
                <div class="span4">
-                  <h2 class="checkbox">便利な使い方</h2>
+                  <h2 id="use" class="checkbox">便利な使い方</h2>
                </div>
 
                <div class="span8">
@@ -58,9 +60,8 @@
             <hr />
 
             <div class="row">
-
                <div class="span4">
-                  <h2 class="checkbox">問題が発生した場合</h2>
+                  <h2 id="problem" class="checkbox">問題が発生した場合</h2>
                </div>
 
                <div class="span8">
@@ -83,7 +84,13 @@
                </div>
             </div>
 
+            <hr />
+
          </div><!-- document -->
+
+         <footer>
+         <p class="copyright">Copyright (C) aill inc, All rights reserved. </p>
+         </footer>
       </div><!-- container -->
    </body>
 </html>
