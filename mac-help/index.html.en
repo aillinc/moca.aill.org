@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+      <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap.min.css" media="screen,print" />
+      <link rel="stylesheet" type="text/css" href="/bootstrap/css/bootstrap-responsive.min.css">
+      <link rel="stylesheet" type="text/css" href="/css/mac-help.css">
+
+      <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script>
+      <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+
+      <title>HELP: Moca Mac</title>
+   </head>
+   <body>
+      <div class="navbar">
+         <div class="navbar-inner">
+            <div class="container">
+               <div class="btn-group pull-right">
+                  <a class="btn btn-inverse btn-mini" href="index.html.ja">Japanese</a>
+               </div>
+               <a class="brand" href="index.html.en">HELP: Moca Mac</a>
+            </div>
+         </div>
+      </div>
+
+      <div class="container">
+         <div class="document">
+            <div class="row">
+               <div class="span4" align="center">
+                  <div class="subheader text-left">
+                     <h2 id="use" class="checkbox">Tips &amp; Tricks</h2>
+                  </div>
+               </div>
+
+               <div class="span8">
+
+                  <h3 class="point">How to create an event</h3>
+                  <!--
+                  <p>メニューから「新規イベント」を選択するか、任意の日付の枠内をクリックすると、クイック作成画面が開きます。</p>
+                  <p>イベントの内容を入力して<em>Enterキー</em>を押すと、すぐにイベントを登録できます。
+                  もし、メモやURLなどの追加の情報を登録したい場合は、Enterキーを押す前に「詳細」ボタンを押すと詳細入力画面が開くので、そちらで内容を入力します。</p>
+                  <p>クイック作成画面では日付や開始時間などを自動的に認識しますので、
+                  たとえば「午前10時から12時まで会議」といったように入力すると、選択した日付の10時から12時の期間に「会議」というタイトルのイベントが登録されます。
+                  どのような文章が認識できるのかは <a href="quick.html">クイック作成画面のヘルプ</a> をご覧ください。</p>
+                  -->
+
+
+                  <h3 class="point">How to copy an event</h3>
+                  <!--
+                  <p>カレンダー上でイベントをドラッグ＆ドロップして操作することが可能です。</p>
+                  <p>単にドラッグ＆ドロップをすると<strong>移動</strong>ですが、
+                  <em>Optionキー</em>を押しながらドラッグ＆ドロップをすると<strong>コピー</strong>になります。</p>
+                  -->
+
+
+                  <h3 class="point">Agent mode</h3>
+                  <!--
+                  <p>完全に好みの問題ですが、Mission Controlで複数のデスクトップを活用している方なら以下の設定が開発者の個人的なお薦めです。</p>
+                  <ul>
+                     <li>設定画面の「詳細」にある「アプリケーションアイコン」の
+                     「メニューバーに表示」をオンにし、「Dockに表示」をオフにする</li>
+                  </ul>
+
+                  <p>この設定にしておくと、どのデスクトップを表示していたとしても、
+                  メニューバーのMocaアイコンをクリックするとその場でカレンダーが表示できます。
+                  キーボードショートカットも登録しておくとさらに素早く表示できて便利です。</p>
+                  -->
+
+               </div>
+            </div>
+
+            <hr />
+
+            <div class="row">
+               <div class="span4" align="center">
+                  <div class="subheader text-left">
+                     <h2 id="problem" class="checkbox">FAQ</h2>
+                  </div>
+               </div>
+
+               <div class="span8">
+
+                  <h3 class="point">Calendar date or weekday is wrong</h3>
+                  <!--
+                  <p>カレンダー内の日付や曜日が正しく表示されていない場合は、以下の設定をご確認ください。</p>
+                  <ul>
+                     <li>Mocaの環境設定の「地域（タイムゾーン）」がお住まいの地域になっているかどうか</li>
+                     <li>システム環境設定の「日付と時刻」内の「タイムゾーン」がお住まいの地域になっているかどうか</li>
+                  </ul>
+                  <p>設定が正しいにも関わらずうまく表示されない場合は、アプリを再起動して改善されるかどうかお試しください。</p>
+                  -->
+
+
+                  <h3 class="point">Event has unregistered alert</h3>
+                  <!--
+                  <p>予定を登録・編集する際に通知を設定していないにも関わらず、勝手に通知が入ってしまう場合は、以下の設定をご確認ください。</p>
+                  <ul>
+                     <li><a href="ical://">標準のカレンダーアプリ</a> を開き、環境設定の「通知」が設定されているかどうか</li>
+                  </ul>
+                  -->
+
+               </div>
+            </div>
+
+            <hr />
+
+         </div><!-- document -->
+
+         <footer>
+         <p class="copyright">Copyright (C) aill inc, All rights reserved. </p>
+         </footer>
+      </div><!-- container -->
+   </body>
+</html>
