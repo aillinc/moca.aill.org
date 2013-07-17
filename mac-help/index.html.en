@@ -60,6 +60,17 @@
                   -->
 
 
+                  <h3 class="point">Keyboard operation</h3>
+                  <!--<p>メニューに存在する項目以外にも、以下のキーを単独で押すとカレンダーの表示位置を移動できます。</p> -->
+                  <div class="row">
+                     <div class="span1 offset1">t</div><div class="span4">Go to today</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">k</div><div class="span4">Go to previous week</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">j</div><div class="span4">Go to next week</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">p</div><div class="span4">Go to previous month</div><div class="span2">&nbsp;</div>
+                     <div class="span1 offset1">n</div><div class="span4">Go to next month</div><div class="span2">&nbsp;</div>
+                  </div>
+
+
                   <h3 class="point">Agent mode</h3>
                   <!--
                   <p>完全に好みの問題ですが、Mission Controlで複数のデスクトップを活用している方なら以下の設定が開発者の個人的なお薦めです。</p>
