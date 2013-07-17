@@ -22,6 +22,10 @@
                   <a class="btn btn-inverse btn-mini" href="index.html.en">English</a>
                </div>
                <a class="brand" href="index.html.ja">Moca Mac版ヘルプ</a>
+               <ul class="nav">
+                  <li class="active"><a href="index.html">ヘルプ</a></li>
+                  <li><a href="quick.html">クイック作成画面</a></li>
+               </ul>
             </div>
          </div>
       </div>
