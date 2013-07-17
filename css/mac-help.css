@@ -24,12 +24,20 @@ h3 {
    font-size: 120%;
 }
 
+h4 {
+   font-size: 100%;
+}
+
 h2.checkbox {
    background:url(../images/check.jpg) no-repeat center left;
    text-indent: 20px;
    line-height: 36px;
    font-weight: normal;
    margin: 20px 0 0 10px;
+}
+
+div.subheader {
+   max-width: 240px;
 }
 
 h3.point {
