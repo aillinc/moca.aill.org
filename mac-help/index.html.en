@@ -21,7 +21,7 @@
                <div class="btn-group pull-right">
                   <a class="btn btn-inverse btn-mini" href="index.html.ja">Japanese</a>
                </div>
-               <a class="brand" href="index.html.en">HELP: Moca Mac</a>
+               <a class="brand" href="index.html.en">Moca Mac</a>
                <ul class="nav">
                   <li class="active"><a href="index.html">HELP</a></li>
                   <li><a href="quick.html">Quick Add Event</a></li>
