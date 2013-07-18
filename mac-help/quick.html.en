@@ -37,6 +37,7 @@
 
             <p>You can enter natural sentence like “10:00-12:00 Meeting at Shibuya” when create new event.
             Enter a title, date, and time duration for the event, and then press Return.</p>
+            <p><img class="quick img-rounded" src="./quick-en.png" /></p>
 
             <hr />
 
