@@ -35,7 +35,7 @@
 
             <h2 class="point">How to use Quick-Add-Event</h2>
 
-            <p>You can enter natural sentence like “Staff meeting next Monday at 13:00” when create new event.
+            <p>You can enter natural sentence like “10:00-12:00 Meeting at Shibuya” when create new event.
             Enter a title, date, and time duration for the event, and then press Return.</p>
 
             <hr />
@@ -58,42 +58,38 @@
 
                   <h3 class="point">Common formats</h3>
                   <ul>
-                     <li>10-12 ミーティング</li>
-                     <li>2pm ミーティング</li>
-                     <li>19時 ミーティング</li>
-                     <li>金曜日午後7時 ミーティング</li>
-                     <li>6月11日19時〜22時はミーティング</li>
+                     <li>7pm Meeting</li>
+                     <li>10-12 Meeting</li>
+                     <li>10:00-12:00 Meeting at Shibuya</li>
+                     <li>6/11 19-22 Meeting</li>
+                     <li>Meeting Friday from 11am-1pm</li>
                   </ul>
+
 
                   <h3 class="point">Specified time</h3>
                   <ul>
-                     <li>10am - 1pm ミーティング</li>
-                     <li>4:00 pm - 9:30 ミーティング</li>
-                     <li>13時15分から14時半までミーティング</li>
-                     <li>午後3時30分から午後5時30分 ミーティング</li>
-                     <li>４時から１２時はミーティング</li>
-                     <li>十時から十二時までミーティング</li>
-                     <li>十九時から二十二時半までミーティング</li>
-                     <li>午後四時から九時半までミーティング</li>
+                     <li>10am - 1pm Meeting</li>
+                     <li>4:00 pm - 9:30 Meeting</li>
+                     <li>2:15 - 3 p.m. Meeting</li>
+                     <li>14:15 Meeting</li>
                   </ul>
 
 
                   <h3 class="point">Specified a day of week</h3>
-                  <p>◯曜日、◯曜といった書式に対応しています。
-                  選択した日が土曜日の場合に「土曜日」と入力すると当日、「次の土曜日」とすると、翌週の土曜日と認識されます。</p>
                   <ul>
-                     <li>月曜ミーティング</li>
-                     <li>火曜日ミーティング</li>
-                     <li>次の土曜日の午後7時にミーティング</li>
+                     <li>Meeting on Friday</li>
+                     <li>Meeting next Friday</li>
+                     <li>Meeting Friday at 7pm</li>
                   </ul>
 
 
                   <h3 class="point">Specified date</h3>
                   <ul>
-                     <li>6/11 15:30 ミーティング</li>
-                     <li>6月11日はミーティング</li>
+                     <li>Meeting 6/11</li>
+                     <li>6.11 15:30 Meeting</li>
+                     <li>5.1 Meeting</li>
+                     <li>10:00-12:00 Meeting tomorrow</li>
                   </ul>
-                  <p>※年の指定には対応していません。</p>
 
 
                </div>
