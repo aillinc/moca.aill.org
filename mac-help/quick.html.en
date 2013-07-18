@@ -35,13 +35,8 @@
 
             <h2 class="point">How to use Quick-Add-Event</h2>
 
-            <p>メニューから「新規イベント」を選択するか任意の日付の枠内をクリックするとクイック作成画面が開きますので、
-            イベントの内容を入力して<em>Enterキー</em>を押すと、すぐにイベントが登録できます。</p>
-            <p>「新規イベント」を選択した場合は当日がデフォルトに、任意の日付を選択した場合は、その日付がデフォルトになります。</p>
-            <p>クイック作成画面では日付や開始時間などを自動的に認識しますので、
-            たとえば「午前10時から12時まで会議」といった自然な文章を入力すると、
-            選択した日付の10時から12時の期間に「会議」というタイトルのイベントが登録されます。</p>
-            <p>どういった文章を認識するかどうか、以下に示しますので活用してください。</p>
+            <p>You can enter natural sentence like “Staff meeting next Monday at 13:00” when create new event.
+            Enter a title, date, and time duration for the event, and then press Return.</p>
 
             <hr />
 
@@ -56,9 +51,9 @@
 
                   <h3 class="point">Basic rule</h3>
                   <ul>
-                     <li>日付や曜日を指定した場合は、選択した日の次の日付（曜日）となります</li>
-                     <li>If you don’t enter any time information, Calendar makes the event an all-day event.</li>
-                     <li>If you don’t enter a time duration, Calendar sets the duration to 1 hour.</li>
+                     <li>If you enter any date or days of the week, Calendar set a next date (week).</li>
+                     <li>If you don't enter any time information, Calendar makes the event an all-day event.</li>
+                     <li>If you don't enter a time duration, Calendar sets the duration to 1 hour.</li>
                   </ul>
 
                   <h3 class="point">Common formats</h3>
