@@ -77,6 +77,12 @@
                   </div>
 
 
+                  <h3 class="point">How to create new calendar, edit calendar color</h3>
+                  <p>You can edit existing calendar on <a href="ical://">Calendar.app</a>.
+                  Open Calendar.app and choose ”New Calendar” in File menu to create new calendar.</p>
+                  <p>If you want to edit calendar color, right-click on calendar name and choose Get Info.</p>
+                  <p><img class="quick img-rounded" src="./calendar-add-en.png" /></p>
+
                   <!--
                   <h3 class="point">Agent mode</h3>
                   <p>完全に好みの問題ですが、Mission Controlで複数のデスクトップを活用している方なら以下の設定が開発者の個人的なお薦めです。</p>
