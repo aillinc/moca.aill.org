@@ -66,6 +66,10 @@
                   <p>Drag &amp; Drop with option-key to copy event.</p>
 
 
+                  <h3 class="point">Hot to delete an event</h3>
+                  <p>Click event you want to delete and press <em>Delete-key</em>.</p>
+
+
                   <h3 class="point">Keyboard operation</h3>
                   <!--<p>メニューに存在する項目以外にも、以下のキーを単独で押すとカレンダーの表示位置を移動できます。</p> -->
                   <div class="row">
