@@ -63,7 +63,11 @@
 
                   <h3 class="point">How to copy an event</h3>
                   <p>Drag &amp; Drop event on calendar to move specify date.</p>
-                  <p>Drag &amp; Drop with option-key to copy event.</p>
+                  <p>Drag &amp; Drop with <em>Option-key</em> to copy event.</p>
+
+
+                  <h3 class="point">Hot to delete an event</h3>
+                  <p>Click event you want to delete and press <em>Delete-key</em>.</p>
 
 
                   <h3 class="point">Keyboard operation</h3>
@@ -76,6 +80,12 @@
                      <div class="span1 offset1">n</div><div class="span4">Go to next month</div><div class="span2">&nbsp;</div>
                   </div>
 
+
+                  <h3 class="point">How to create new calendar, edit calendar color</h3>
+                  <p>You can edit existing calendar on <a href="ical://">Calendar.app</a>.
+                  Open Calendar.app and choose ”New Calendar” in File menu to create new calendar.</p>
+                  <p>If you want to edit calendar color, right-click on calendar name and choose Get Info.</p>
+                  <p><img class="quick img-rounded" src="./calendar-add-en.png" /></p>
 
                   <!--
                   <h3 class="point">Agent mode</h3>

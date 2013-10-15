@@ -55,5 +55,6 @@ h3.point {
 img.quick {
            box-shadow: 0 0 0px #333, 0 0 12px #333, 5px 5px 5px #999;
    -webkit-box-shadow: 0 0 0px #333, 0 0 12px #333, 5px 5px 5px #999;
+   margin: 0 1em;
 }
 

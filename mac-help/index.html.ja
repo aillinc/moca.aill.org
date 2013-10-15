@@ -67,6 +67,10 @@
                   <em>Optionキー</em>を押しながらドラッグ＆ドロップをすると<strong>コピー</strong>になります。</p>
 
 
+                  <h3 class="point">予定を削除する</h3>
+                  <p>予定を削除したい場合は、削除したい予定をクリックしてキーボードの<em>Deleteキー</em>押します。</p>
+
+
                   <h3 class="point">キーボードショートカット</h3>
                   <p>メニューに存在する項目以外にも、以下のキーを単独で押すとカレンダーの表示位置を移動できます。</p>
                   <div class="row">
@@ -76,6 +80,13 @@
                      <div class="span1 offset1">p</div><div class="span4">前月に移動</div><div class="span2">&nbsp;</div>
                      <div class="span1 offset1">n</div><div class="span4">次月に移動</div><div class="span2">&nbsp;</div>
                   </div>
+
+
+                  <h3 class="point">カレンダーの種類を追加したり色を変える方法</h3>
+                  <p>予定を追加する際に選択できるカレンダーの種類を編集する場合、現状では <a href="ical://">標準のカレンダーアプリ</a> を利用して頂く必要がございます。</p>
+                  <p>カレンダーアプリを開き、ファイルメニューの「新規カレンダー」を選択すると、新しいカレンダーを追加できます。</p>
+                  <p>同様にカレンダーの色を変更したい場合は、カレンダー名を右クリック(Ctrl+クリック)して「情報を見る」を選択すると編集画面が開きます。</p>
+                  <p><img class="quick img-rounded" src="./calendar-add-ja.png" /></p>
 
 
                   <h3 class="point">エージェントモードで使う</h3>
