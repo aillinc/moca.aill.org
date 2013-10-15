@@ -63,7 +63,11 @@
 
                   <h3 class="point">How to copy an event</h3>
                   <p>Drag &amp; Drop event on calendar to move specify date.</p>
-                  <p>Drag &amp; Drop with option-key to copy event.</p>
+                  <p>Drag &amp; Drop with <em>Option-key</em> to copy event.</p>
+
+
+                  <h3 class="point">Hot to delete an event</h3>
+                  <p>Click event you want to delete and press <em>Delete-key</em>.</p>
 
 
                   <h3 class="point">Keyboard operation</h3>
