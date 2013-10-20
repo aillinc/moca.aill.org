@@ -5,10 +5,19 @@
 <title>Moca / iPhone Application</title>
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/layout.css" rel="stylesheet" type="text/css">
-<link href="css/tinybox.css" rel="stylesheet" type="text/css"/>
+<link href="vanillabox/theme/bitter/vanillabox.css" rel="stylesheet" type="text/css"/>
 
-<script type="text/javascript" src="javascripts/tinybox.js"></script>
-<script type="text/javascript" src="javascripts/tinybox_lib.js"></script>
+<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="vanillabox/jquery.vanillabox-0.1.1.min.js"></script>
+
+<script>
+   <!--
+   $(document).ready(function() {
+      $('#group-image-iphone a').vanillabox();
+      $('#group-image-ipad a').vanillabox();
+   });
+   //-->
+</script>
 
 </head>
 
@@ -83,28 +92,28 @@ for Mac<br />
 <!--===セクション終わり===-->
 
 <!--===セクション始まり===-->
-<div class="section">
+<div id="group-image-iphone" class="section">
 <h2><img src="images/title_scs_iphone.png" alt="Screenshots for iPhone" width="826" height="58" /></h2>
 <div class="scs_box clearfix">
 <div class="scs">
 <p class="scs_text">Tap to view the schedule.</p>
-<a href="images/captures/en/capture1.png"><img src="images/captures/en/capture1_s.png" width="320" height="548" /></a>
+<a href="images/captures/en/capture1.png" title="Tap to view the schedule."><img src="images/captures/en/capture1_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text"><span class="text_s">Text size and display area is freely.</span></p>
-<a href="images/captures/en/capture2.png"><img src="images/captures/en/capture2_s.png" width="320" height="548" /></a>
+<a href="images/captures/en/capture2.png" title="Text size and display area is freely."><img src="images/captures/en/capture2_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
-<p class="scs_text"> Replication function</p>
-<a href="images/captures/en/capture3.png"><img src="images/captures/en/capture3_s.png" width="320" height="548" /></a>
+<p class="scs_text">Replication function</p>
+<a href="images/captures/en/capture3.png" title="Replication function"><img src="images/captures/en/capture3_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">Easy customize</p>
-<a href="images/captures/en/capture4.png"><img src="images/captures/en/capture4_s.png" width="320" height="548" /></a>
+<a href="images/captures/en/capture4.png" title="Easy customize"><img src="images/captures/en/capture4_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">You can choose any color.</p>
-<a href="images/captures/en/capture5.png"><img src="images/captures/en/capture5_s.png" width="320" height="548" /></a>
+<a href="images/captures/en/capture5.png" title="You can choose any color."><img src="images/captures/en/capture5_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 
 </div><!--clearfix END-->
@@ -112,20 +121,20 @@ for Mac<br />
 <!--===セクション終わり===-->
 
 <!--===セクション始まり===-->
-<div class="section">
+<div id="group-image-ipad" class="section">
 <h2><img src="images/title_scs_ipad.png" alt="Screenshots for iPad" width="826" height="58" /></h2>
 <div class="scs_box clearfix">
 <div class="scs">
 <p class="scs_text">Handy List of schedules</p>
-<a href="./images/captures/en/hd/capture1.png"><img width="320px" src="images/captures/en/hd/capture1_s.png" /></a><a href="images/captures/en/capture1.png"></a>
+<a href="./images/captures/en/hd/capture1.png" title="Handy List of schedules"><img width="320px" src="images/captures/en/hd/capture1_s.png" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">Excellent list of schedules</p>
-<a href="./images/captures/en/hd/capture2.png"><img width="320px" src="images/captures/en/hd/capture2_s.png" /></a><a href="images/captures/en/capture2.png"></a>
+<a href="./images/captures/en/hd/capture2.png" title="Excellent list of schedules"><img width="320px" src="images/captures/en/hd/capture2_s.png" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">Simple customize</p>
-<a href="./images/captures/en/hd/capture3.png"><img width="320px" src="images/captures/en/hd/capture3_s.png" /></a><a href="images/captures/en/capture3.png"></a>
+<a href="./images/captures/en/hd/capture3.png" title="Simple customize"><img width="320px" src="images/captures/en/hd/capture3_s.png" /></a>
 </div><!--scs END-->
 
 </div><!--clearfix END-->

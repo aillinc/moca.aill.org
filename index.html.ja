@@ -5,10 +5,19 @@
 <title>月特化カレンダー Moca / iPhone Application</title>
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/layout.css" rel="stylesheet" type="text/css">
-<link href="css/tinybox.css" rel="stylesheet" type="text/css"/>
+<link href="vanillabox/theme/bitter/vanillabox.css" rel="stylesheet" type="text/css"/>
 
-<script type="text/javascript" src="javascripts/tinybox.js"></script>
-<script type="text/javascript" src="javascripts/tinybox_lib.js"></script>
+<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="vanillabox/jquery.vanillabox-0.1.1.min.js"></script>
+
+<script>
+   <!--
+   $(document).ready(function() {
+      $('#group-image-iphone a').vanillabox();
+      $('#group-image-ipad a').vanillabox();
+   });
+   //-->
+</script>
 
 </head>
 
@@ -86,28 +95,28 @@ GoogleカレンダーやAppleのiCloudカレンダーがそのままご利用で
 <!--===セクション終わり===-->
 
 <!--===セクション始まり===-->
-<div class="section">
+<div id="group-image-iphone" class="section">
 <h2><img src="images/title_scs_iphone.png" alt="Screenshots for iPhone" width="826" height="58" /></h2>
 <div class="scs_box clearfix">
 <div class="scs">
 <p class="scs_text">タップして予定を表示</p>
-<a href="images/captures/ja/capture1.png"><img src="images/captures/ja/capture1_s.png" width="320" height="548" /></a>
+<a href="images/captures/ja/capture1.png" title="タップして予定を表示"><img src="images/captures/ja/capture1_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">文字サイズや表示領域も自由自在</p>
-<a href="images/captures/ja/capture2.png"><img src="images/captures/ja/capture2_s.png" width="320" height="548" /></a>
+<a href="images/captures/ja/capture2.png" title="文字サイズや表示領域も自由自在"><img src="images/captures/ja/capture2_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">まとめてコピーできる複製機能</p>
-<a href="images/captures/ja/capture3.png"><img src="images/captures/ja/capture3_s.png" width="320" height="548" /></a>
+<a href="images/captures/ja/capture3.png" title="まとめてコピーできる複製機能"><img src="images/captures/ja/capture3_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">わかりやすいカスタマイズ</p>
-<a href="images/captures/ja/capture4.png"><img src="images/captures/ja/capture4_s.png" width="320" height="548" /></a>
+<a href="images/captures/ja/capture4.png" title="わかりやすいカスタマイズ"><img src="images/captures/ja/capture4_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">カレンダーの色はどんな色にでも</p>
-<a href="images/captures/ja/capture5.png"><img src="images/captures/ja/capture5_s.png" width="320" height="548" /></a>
+<a href="images/captures/ja/capture5.png" title="カレンダーの色はどんな色にでも"><img src="images/captures/ja/capture5_s.png" width="320" height="548" /></a>
 </div><!--scs END-->
 
 </div><!--clearfix END-->
@@ -115,20 +124,20 @@ GoogleカレンダーやAppleのiCloudカレンダーがそのままご利用で
 <!--===セクション終わり===-->
 
 <!--===セクション始まり===-->
-<div class="section">
+<div id="group-image-ipad" class="section">
 <h2><img src="images/title_scs_ipad.png" alt="Screenshots for iPad" width="826" height="58" /></h2>
 <div class="scs_box clearfix">
 <div class="scs">
 <p class="scs_text">手元に予定を一覧</p>
-<a href="./images/captures/ja/hd/capture1.png"><img width="320px" src="images/captures/ja/hd/capture1_s.png" /></a><a href="images/captures/ja/capture1.png"></a>
+<a href="./images/captures/ja/hd/capture1.png" title="手元に予定を一覧"><img width="320px" src="images/captures/ja/hd/capture1_s.png" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">一覧性に優れています</p>
-<a href="./images/captures/ja/hd/capture2.png"><img width="320px" src="images/captures/ja/hd/capture2_s.png" /></a><a href="images/captures/ja/capture2.png"></a>
+<a href="./images/captures/ja/hd/capture2.png" title="一覧性に優れています"><img width="320px" src="images/captures/ja/hd/capture2_s.png" /></a>
 </div><!--scs END-->
 <div class="scs">
 <p class="scs_text">シンプルなカスタマイズ</p>
-<a href="./images/captures/ja/hd/capture3.png"><img width="320px" src="images/captures/ja/hd/capture3_s.png" /></a><a href="images/captures/ja/capture3.png"></a>
+<a href="./images/captures/ja/hd/capture3.png" title="シンプルなカスタマイズ"><img width="320px" src="images/captures/ja/hd/capture3_s.png" /></a>
 </div><!--scs END-->
 
 </div><!--clearfix END-->
