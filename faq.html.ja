@@ -31,7 +31,6 @@
       <h2>オンラインヘルプ</h1>
 
       <ul style="list-style-type: circle">
-         <li><a href="#iOS12">iOS12に対応してますか？</a></li>
          <li><a href="#unknownevent">見覚えのない予定がある</a></li>
          <li><a href="#copy">予定のコピーをしたい</a></li>
          <li><a href="#google">Googleカレンダーがデフォルトカレンダー以外表示されない</a></li>
@@ -41,12 +40,6 @@
          <!-- <li><a href="#jump">特定の年月にジャンプしたい</a></li> -->
          <li><a href="#ipad">iPad版が欲しい</a></li>
       </ul>
-
-      <h2 id="iOS12">iOS12に対応してますか？</h2>
-
-      <p>対応しております。</p>
-
-      <p class="topAnchor"><a href="#top">▲TOP</a></p>
 
       <h2 id="unknownevent">見覚えのない予定がある</h2>
 
