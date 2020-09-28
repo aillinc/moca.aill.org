@@ -31,7 +31,8 @@
       <h2>オンラインヘルプ</h1>
 
       <ul style="list-style-type: circle">
-         <li><a href="#unknownevent">見覚えのない予定がある</a></li>
+         <li><a href="#unknownevent">見覚えのない予定がある１</a></li>
+         <li><a href="#spamevent">見覚えのない予定がある２</a></li>
          <li><a href="#copy">予定のコピーをしたい</a></li>
          <li><a href="#google">Googleカレンダーがデフォルトカレンダー以外表示されない</a></li>
          <li><a href="#nobadge">ホーム画面のアイコンバッジが表示されない</a></li>
@@ -41,11 +42,31 @@
          <li><a href="#ipad">iPad版が欲しい</a></li>
       </ul>
 
-      <h2 id="unknownevent">見覚えのない予定がある</h2>
+      <h2 id="unknownevent">見覚えのない予定がある１</h2>
 
       <p>該当する予定の詳細画面を表示していただき「カレンダー」の項目を確認してください。その後、設定画面にある「カレンダー」を開き、同じ名前のカレンダーのチェックを外していただければ表示されなくなります。</p>
 
       <p>たとえば「Found in Mail」といった名前のカレンダーはメールなどからイベントを自動生成するカレンダーです。不要でしたらチェックは外してください。Found in MailはiOSの標準機能なので、より詳しい内容についてはAppleへお問い合わせください。</p>
+
+      <p>IPA が注意喚起をしている以下の情報もあわせてご参照ください。 <a href="https://www.ipa.go.jp/security/anshin/mgdayori20200330.html">iPhoneに突然表示される不審なカレンダー通知に注意！</a></p>
+
+      <p class="topAnchor"><a href="#top">▲TOP</a></p>
+
+      <h2 id="spamevent">見覚えのない予定がある２</h2>
+
+      <p>スパムカレンダーを購読してしまった場合は、以下の手順で解除します。</p>
+
+      <ul>
+         <ol>1. Moca ではなく「設定」アプリを開く</ol>
+         <ol>2. 「パスワードとアカウント」をタップ</ol>
+         <ol>3. 「照会したカレンダー」をタップ</ol>
+         <ol>4. 登録した覚えのないのカレンダーをタップ</ol>
+         <ol>5. 「アカウントを削除」をタップ</ol>
+      </ul>
+
+      <p></p>
+
+      <p>IPA が注意喚起をしている以下の情報もあわせてご参照ください。 <a href="https://www.ipa.go.jp/security/anshin/mgdayori20200330.html">iPhoneに突然表示される不審なカレンダー通知に注意！</a></p>
 
       <p class="topAnchor"><a href="#top">▲TOP</a></p>
 
