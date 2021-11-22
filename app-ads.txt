@@ -47,3 +47,12 @@ adingo.jp, 24550, RESELLER
 appnexus.com, 7044, RESELLER, f5ab79cb980f11d1
 pubmatic.com, 156313, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158853, RESELLER, 5d62403b186f2ace
+adm.shinobi.jp, 21957, DIRECT
+contextweb.com, 562145, RESELLER, 89ff185a4c4e857c
+indexexchange.com, 190856, RESELLER, 50b1c356f2c5c8fc
+pubmatic.com, 158615, RESELLER, 5d62403b186f2ace
+vidazoo.com, 1773068026, RESELLER, b6ada874b4d7d0b2
+openx.com, 541058490, RESELLER, 6a698e2ec38604c6
+indexexchange.com, 193191, RESELLER, 50b1c356f2c5c8fc
+admixer.co.kr, 1370, RESELLER
+impact-ad.jp, 4399, RESELLER
