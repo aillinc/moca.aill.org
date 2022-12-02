@@ -1,18 +1,24 @@
-
 body {
-   font-size: 10.5pt;
+   font-size: medium;
    color: #202020;
    background-color: #F2F2F2;
+   font-family: -apple-system-body, BlinkMacSystemFont, sans-serif;
+   word-wrap: break-word;
 }
 
-h1 {
+h1,h2 {
+   font-size: large;
+   font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+}
+
+h3,h4 {
    font-size: medium;
+   font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
 }
 
 h2 {
-   font-size: medium;
    margin: 1em 0;
-   background-color : #DAE6DA;
+   background-color : #DAD6DA;
    padding: 0.25em;
 }
 
@@ -22,8 +28,8 @@ pre {
    border: 1px solid #99CC99;
 }
 
-ol,  ul {
-   padding-left: 1.5em;
+ul,ol {
+   padding-left: 2.0em;
 }
 
 a {
