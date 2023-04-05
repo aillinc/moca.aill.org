@@ -6,23 +6,10 @@
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/layout.css" rel="stylesheet" type="text/css">
 <link href="vanillabox/theme/bitter/vanillabox.css" rel="stylesheet" type="text/css"/>
-
-<script type="text/javascript" src="javascripts/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="vanillabox/jquery.vanillabox-0.1.1.min.js"></script>
-
-<script>
-   <!--
-   $(document).ready(function() {
-      $('#group-image-iphone a').vanillabox();
-      $('#group-image-ipad a').vanillabox();
-   });
-   //-->
-</script>
-
 </head>
 
 
-<body onload="loadTinyBox('scs')">
+<body>
 <div id="header">
 
 <ul class="language">
